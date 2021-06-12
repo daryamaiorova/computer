@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Учебное пособие по дисциплине "Информационная безопасность"</title>
+  <link rel="shortcut icon" href="../../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../../core.css">
+</head>
+
+<body class="page__body">
+  <header class="header page__header">
+    <div class="header__container">
+      <img class="logo header__logo" src="../../img/logo.png" alt="логотип">
+
+      <button class="burger header__burger" type="button" aria-label="меню">
+        <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-width="2" d="M2 2h18v18H2z"></path>
+          <path d="M6 7h10.096M6 11h10.096M6 15h6" stroke-width="2" stroke-linecap="square"></path>
+        </svg>
+      </button>
+
+      <nav class="nav header__nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="../../index.html">Главная</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="../../1.html">Содержание</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="../../2.html">Пройти тестирование</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <aside class="aside page__aside">
+    <nav class="nav-aside aside__nav">
+      <ul class="nav-aside__list">
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="../../1/1/index.html">Общие проблемы безопасности. Роль и место информационной
+            безопасности</a>
+          <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+          <ul class="nav-aside__list">
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../1/1/index.html">Национальные интересы и безопасность</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/1/1.html">История вопроса</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/1/2.html">Национальные интересы и безопасность России</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/1/3.html">Национальная безопасность, ее определения</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/1/4.html">Уровни обеспечения национальной безопасности</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/1/5.html">Основные угрозы безопасности России</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../1/2/index.html">Информационная безопасность</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/2/1.html">Информационная война</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/2/2.html">Информационное превосходство в обычных и информационных
+                    войнах</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/2/3.html">Информационное оружие</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/2/4.html">Принципы, основные задачи и функции обеспечения
+                    информационной безопасности</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/2/5.html">Отечественные и зарубежные стандарты в области
+                    информационной безопасности</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../1/3/index.html">Защита информации (ЗИ)</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/3/1.html">Основные предметные направления ЗИ</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/3/2.html">Правовые основы защиты информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/3/3.html">Уровни доступа к информации с точки зрения
+                    законодательства</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/3/4.html">Ответственность за нарушение законодательства в
+                    информационной сфере</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../1/4/index.html">Контрольные вопросы</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="../../2/1/1.html">Защита информации в автоматизированных системах обработки
+            данных</a>
+          <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+          <ul class="nav-aside__list">
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../2/1/1.html">Предмет и объекты защиты информации в автоматизированных
+                системах
+                обработки данных (АСОД)</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/1/1.html">Надежность информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/1/2.html">Уязвимость информации</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../2/2/index.html">Элементы и объекты защиты в АСОД</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/2/1.html">Дестабилизирующие факторы АСОД</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/2/2.html">Преднамеренные угрозы безопасности АСОД</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../2/3/index.html">Функции и задачи защиты информации</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/3/1.html">Функции непосредственной защиты информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/3/2.html">Обнаружение проявившихся дестабилизирующих факторов</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/3/3.html">Механизмы защиты</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/3/4.html">Управление механизмами защиты</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../2/4/index.html">Методы и системы защиты информации</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/4/1.html">Подтверждение подлинности пользователей и разграничение
+                    их доступа к компьютерным ресурсам</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/4/2.html">Общие сведения о контроле информационной целостности</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/4/3.html">Способы определения модификаций информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/4/4.html">Контроль правильности функционирования системы
+                    защиты</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../2/5/index.html">Контрольные вопросы</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="../../3/index.html">Криптографические методы защиты информации</a>
+          <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+          <ul class="nav-aside__list">
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../3/1/index.html">Криптология и основные этапы ее развития</a>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../3/2/index.html">Методы криптографического преобразования данных</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../3/2/1.html">Кодирование</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../3/2/2.html">Другие виды криптографического закрытия информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../3/2/3.html">Системы с открытым ключом</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../3/2/4.html">Электронная цифровая подпись</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../3/2/5.html">Криптографические стандарты DES и ГОСТ28147—89</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../3/3/index.html">Проблемы реализации методов криптографической защиты в
+                АСОД</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../3/3/1.html">Технические средства криптографии</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../3/3/2.html">Программные средства</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../3/3/3.html">Проблема управления ключами</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../3/3/4.html">Характеристики криптографических средств защиты</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../3/4/index.html">Контрольные вопросы</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="../../4/1/index.html">Защита информации в персональных компьютерах</a>
+          <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+          <ul class="nav-aside__list">
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../4/1/index.html">Особенности защиты информации в персональных ЭВМ</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/1/1.html">Угрозы информации в персональных ЭВМ</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/1/2.html">Цели защиты</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../4/2/index.html">Защита ПК от несанкционированного доступа</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/2/1.html">Физическая защита ПК и носителей информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/2/2.html">Опознавание (аутентификация) пользователей и
+                    используемых компонентов обработки информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/2/3.html">Разграничение доступа к элементам защищаемой
+                    информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/2/4.html">Криптографическое закрытие защищаемой информации,
+                    хранимой на носителях (архивация данных)</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/2/5.html">Регистрация всех обращений к защищаемой информации и
+                    исключение несанкционированного доступа</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/2/6.html">Защита от несанкционированного доступа к компьютеру при
+                    его оставлении без завершения сеанса работы</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../4/3/index.html">Вредоносные закладки в ПК и борьба с ними</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/3/1.html">Классификация закладок и их общие характеристики</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/3/2.html">Средства вторжения в частную жизнь</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/3/3.html">Компьютерные наблюдения</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/3/4.html">Компьютерный червь</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/3/5.html">Троянские программы</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/3/6.html">Прочие вредоносные программы</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/3/7.html">Факторы уязвимости систем для вредоносных программ</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/3/8.html">Проникновение шпионских программ</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/3/9.html">Aware и ряд других средств обеспечения безопасности
+                    ПК</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../4/4/index.html">Контрольные вопросы</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="../../5/1/1.html">Компьютерные вирусы и антивирусные программы</a>
+          <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+          <ul class="nav-aside__list">
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../5/1/1.html">Компьютерный вирус</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../5/1/1.html">История вопроса</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../5/1/2.html">Классификация вирусов</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../5/1/3.html">Алгоритмы вирусов</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../5/1/4.html">Признаки проявления вируса</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../5/2/index.html">Методы защиты. Антивирусы</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../5/2/1.html">Классы антивирусных программ</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../5/3/1.html">Некоторые примеры антивирусных программ</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../5/3/1.html">Программа-полифаг Aidstest</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../5/3/1.html">Антивирус Касперского 7.0</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../5/3/3.html">Антивирус-ревизор диска ADinf для Windows</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../5/3/4.html">Антивирусная программа Dr. Web</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../5/3/5.html">AntiVirus</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../5/4/index.html">Контрольные вопросы</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="../../6/1/index.html">Проблемы защиты информации в сетях эвм</a>
+          <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+          <ul class="nav-aside__list">
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../6/1/index.html">Сети ЭВМ — построение и использование</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/1/1.html">Элементы сетей</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/1/2.html">Сетевые операционные системы (ОС)</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/1/3.html">Межсетевое взаимодействие</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/1/4.html">Прикладное программное обеспечение в ЛВС</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../6/2/1.html">Цели, функции и задачи защиты информации в сетях ЭВМ</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/2/1.html">Цели защиты информации в сетях ЭВМ</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/2/2.html">Особенности защиты информации в вычислительных сетях</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/2/3.html">Понятие сервисов безопасности</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/2/4.html">Международные стандарты</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../6/3/index.html">Архитектура механизмов защиты информации в сетях ЭВМ</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/3/1.html">Услуги механизмов защиты</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/3/2.html">Методы цифровой подписи данных, передаваемых в сети</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/3/3.html">Пример системы защиты локальной вычислительной сети</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/3/4.html">Межсетевые экраны — брандмауэры (FireWall)</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/3/5.html">Прокси - (Proxy) серверы</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/3/6.html">Примеры систем активного аудита</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../6/4/index.html">Контрольные вопросы</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="../../7/1/1.html">Технические средства и комплексное обеспечение
+            безопасности</a>
+          <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+          <ul class="nav-aside__list">
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../7/1/1.html">Технические средства защиты</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../7/1/1.html">Классы ТСЗ</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../7/1/2.html">Типы систем защиты</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../7/1/3.html">Системы опознавания</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../7/1/4.html">Оборонительные системы</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../7/1/5.html">Охранное освещение</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../7/1/6.html">Средства контроля доступа</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../7/1/7.html">Центральный пост и персонал охраны</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../7/2/index.html">Комплексный подход к обеспечению безопасности</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../7/2/1.html">Комплекс физической защиты</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../7/2/2.html">Некоторые образцы технических средств обеспечения
+                    информационной и общей безопасности</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../7/2/3.html">Средства обнаружения/подавления</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../7/3/index.html">Контрольные вопросы</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="../../8/index.html">Заключение</a>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="../../9/index.html">Список литературы</a>
+        </li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main class="main page__main">
+    <header class="main__header">
+      <h1 class="main__header-title">Классы антивирусных программ</h1>
+    </header>
+    <div class="main__content">
+      <div class="main__content-inner">
+        <h2 >Классы антивирусных программ</h2>
+        <p>Существует несколько классификаций антивирусных программ. В соответствии с одной из них известные к
+          настоящему времени антивирусные программы по функциональным признакам делятся на четыре класса:</p>
+        <ul>
+          <li>класс А — предупреждение заражения;</li>
+          <li>класс Б — выявление последствий заражения;</li>
+        </ul>
+
+        <ul>
+          <li>класс В — минимизация причиненного ущерба;</li>
+          <li>класс Г — общего характера.</li>
+        </ul>
+        <p>Программы класса А делятся на пять групп следующего назначения:</p>
+        <ul>
+          <li>А1 — фильтры, следящие за операциями других исполняемых программ и реагирующие на подозрительные
+            действия;</li>
+          <li>А2 — резидентные детекторы и фаги, следящие за появлением в оперативной памяти конкретных вирусов и
+            подающие при их появлении специальные сигналы оператору;</li>
+          <li>АЗ — иммунизаторы, изменяющие файлы и области оперативной памяти таким образом, что вирус их после этого
+            не заражает;</li>
+          <li>А4 — разграничители доступа, ограничивающие распространение вирусов путем разграничения доступа к
+            ресурсам ЭВМ, программам и массивам данных со стороны других программ и пользователей;</li>
+          <li>А5 — преобразователи параметров операционной среды, реализующие изменение соглашений, принятых в
+            операционной системе (форматы записей, команды, расположение системной информации и др.), недоступные
+            разработчикам вирусов и тем самым препятствующие заражению ЭВМ.</li>
+        </ul>
+        <p>Программы класса Б делятся на шесть групп следующего функционального назначения:</p>
+        <ul>
+          <li>Б1 — нерезидентные детекторы и фаги, осуществляющие просмотр запоминающих устройств, определяющие
+            зараженность файлов и дисков и организующие их лечение;</li>
+          <li>Б2 — программы проверки подозрительных характеристик, осуществляющие просмотр запоминающих устройств и
+            выявление таких характеристик, которые могут говорить о наличии вируса в системе. К таким характеристикам
+            относятся недопустимые значения отдельных полей в заголовке файла, подозрительные переходы, странные
+            изменения в программах и т. п.;</li>
+          <li>БЗ — программы, осуществляющие просмотр файлов и носителей, определение различных их характеристик
+            (контрольные суммы, криптографические суммы, длины, даты и времена создания и др.) и сравнение этих величин
+            с эталонами в целях определения возможного заражения;</li>
+        </ul>
+
+        <ul>
+          <li>Б4 — программы, осуществляющие слежение и регистрацию в системном журнале операций, осуществляемых на
+            ЭВМ. При заражении анализ журнала помогает выявить источник заражения, характер поведения вируса;</li>
+          <li>Б5 — программы-ловушки (дрозофилы, уловители), специально выделяемые для заражения, которые, заражаясь,
+            сигнализируют о наличии вируса;</li>
+          <li>Б6 — программы автономной защиты файла, защищающие файлы от вирусов путем дописывания своей копии к
+            защищаемым модулям.</li>
+        </ul>
+        <p>Программы класса В (минимизирующие ущерб, причиненный заражением РПС) делятся на следующие три группы:</p>
+        <ul>
+          <li>В1 — программы полного копирования, предназначенные для создания резервных копий программного
+            обеспечения;</li>
+          <li>В2 — программы частичного копирования, предназначенные для копирования и восстановления наиболее
+            уязвимых частей диска (Boot-сектор, FAT, корневое оглавление);</li>
+          <li>ВЗ — программы, прерывающие вычислительный процесс, т. е. осуществляющие принудительное прерывание
+            вычислительного процесса в целях локализации распространения вируса.</li>
+        </ul>
+        <p>Программы класса Г (общего назначения) предназначены не для прямой борьбы с вирусами, а для оказания помощи в
+          этой борьбе. Эти программы делятся на пять групп следующего назначения:</p>
+        <ul>
+          <li>Г1 — программы просмотра диска, позволяющие отображать значения каждого сектора, копировать одну
+            физическую область в другую. Применяются для определения целостности отдельных частей диска, наличия вируса
+            в файлах и внесения небольших изменений;</li>
+          <li>Г2 — программы, позволяющие искать на диске контекст определенного содержания. С их помощью можно найти
+            участки кодов вирусов и пораженные ими секторы;</li>
+          <li>ГЗ — программы, позволяющие восстанавливать отдельные части диска;</li>
+          <li>Г4 — программы, реализующие просмотр состояния оперативной памяти, состав и характеристики находящихся
+            там модулей;</li>
+          <li>Г5 — программы, позволяющие упорядочить информацию на диске на физическом уровне по заранее заданному
+            закону.</li>
+        </ul>
+
+        <p>Существуют и другие подходы к этой классификации. Различают, например, следующие виды антивирусных программ:
+        </p>
+        <ul>
+          <li>программы-детекторы;</li>
+          <li>программы-доктора или фаги;</li>
+          <li>программы-ревизоры;</li>
+          <li>программы-фильтры;</li>
+          <li>программы-вакцины или иммунизаторы.</li>
+        </ul>
+        <p><i>Программы-детекторы</i> осуществляют поиск характерного</p>
+        <p>для конкретного вируса кода (сигнатуры) в оперативной памяти и в файлах и при обнаружении выдают
+          соответствующее сообщение. Недостатком таких антивирусных программ является то, что они могут находить только
+          те вирусы, которые известны разработчикам таких программ.</p>
+        <p>Программы-доктора или фаги, а также программы-вакцины не только находят зараженные вирусами файлы, но и
+          «лечат» их, т. е. удаляют из файла тело программы-вируса, возвращая файлы в исходное состояние. В начале своей
+          работы фаги ищут вирусы в оперативной памяти, уничтожая их, и только затем переходят к «лечению» файлов. Среди
+          фагов выделяют полифаги, т. е. программы-доктора, предназначенные для поиска и уничтожения большого количества
+          вирусов. Наиболее известные из них: Aidstest, Scan, Norton AntiVirus, Doctor Web.</p>
+        <p>Учитывая, что постоянно появляются новые вирусы, программы-детекторы и программы-доктора быстро устаревают и
+          требуется регулярное обновление версий.</p>
+        <p><i>Антивирусы-полифаги.</i> Антивирусы-полифаги — наиболее распространенные средства по борьбе с вредоносными
+          программами. Исторически они появились первыми и до сих пор удерживают несомненное лидерство в этой области.
+        </p>
+        <p>В основе работы полифагов стоит простой принцип — поиск в программах и документах знакомых участков вирусного
+          кода (так называемых <i>сигнатур</i> вирусов). В общем случае сигнатура — это такая запись о вирусе, которая
+          позволяет однозначно идентифицировать присутствие вирусного кода в программе или документе. Чаще всего
+          сигнатура — это непосредственно участок вирусного кода или его контрольная сумма (дайджест).</p>
+        <p>Первоначально антивирусы-полифаги работали по очень простому принципу — осуществляли последовательный
+          просмотр файлов на предмет нахождения в них вирусных программ. Если сигнатура вируса была обнаружена, то
+          производилась процедура удаления вирусного кода из тела программы или документа. Прежде чем начать проверку
+          файлов, программа-фаг всегда проверяет оперативную память. Если в оперативной памяти оказывается вирус, то
+          происходит его деактивация. Это вызвано тем, что зачастую вирусные программы производят заражение тех
+          программ, которые запускаются или открываются в тот момент, когда вирус находится в активной стадии (это
+          связано со стремлением экономить на усилиях по поиску объектов заражения). Таким образом, если вирус останется
+          активным в памяти, то тотальная проверка всех исполняемых файлов приведет к тотальному заражению системы.</p>
+        <p>В дальнейшем вирусные программы значительно усложнились. Например, появились так называемые «stealth-вирусы».
+          В основе их работы лежит тот факт, что операционная система при обращении к периферийным устройствам (в том
+          числе и к жестким дискам) использует механизм прерываний. Здесь необходимо сделать небольшое отступление на
+          тему «Как работает механизм прерываний». При возникновении прерывания управление передается специальной
+          программе — «Обработчику прерываний». Эта программа отвечает за ввод и вывод информации в/из периферийного
+          устройства. Кроме того, прерывания делятся на уровни взаимодействия с периферией (в нашем случае — с жесткими
+          и гибкими дисками). Есть уровень операционной системы (в среде MS DOS — прерывание 25h) есть уровень базовой
+          системы ввода-вывода (уровень BIOS — прерывание 13h). Опытные системные программисты могут работать и
+          напрямую, обращаясь к портам ввода-вывода устройств. Но это довольно серьезная и трудная задача. Столь
+          многоуровневая система сделана, прежде всего, с целью сохранения переносимости приложений. Именно благодаря
+          такой системе, скажем, оказалось возможным осуществлять запуск DOS-приложений в многозадачных средах типа MS
+          Windows или IBM OS/2.</p>
+        <p>Но в такой системе изначально скрыта и уязвимость: управляя обработчиком прерываний, можно управлять потоком
+          информации от периферийного устройства к пользователю. Stealth- вирусы, в частности, используют механизм
+          перехвата управления при возникновении прерывания. Заменяя оригинальный обработчик прерывания своим кодом,
+          stealth-вирусы контролируют чтение данных с диска.</p>
+        <p>В случае, если с диска читается зараженная программа, вирус «выкусывает» собственный код (обычно код не
+          буквально «выкусывается», а происходит подмена номера читаемого сектора диска). В итоге пользователь получает
+          для чтения «чистый» код. Таким образом, до тех пор, пока вектор обработчика прерываний изменен вирусным кодом,
+          сам вирус активен в памяти компьютера, обнаружить его простым чтением диска средствами операционной системы
+          невозможно. Схожий механизм маскировки используется и загрузочными вирусами, о которых будет сказано дальше. В
+          целях борьбы со stealth-вирусами ранее рекомендовалось (и, в принципе, рекомендуется и сейчас) осуществлять
+          альтернативную загрузку системы с гибкого диска и только после этого проводить поиск и удаление вирусных
+          программ. В настоящее время загрузка с гибкого диска может оказаться проблематичной (для случая с Win32 —
+          антивирусными приложениями запустить их не удастся). Ввиду всего вышесказанного, антивирусы-полифаги
+          оказываются максимально эффективными только при борьбе с уже известными вирусами, т. е. с такими, чьи
+          сигнатуры и методы поведения знакомы разработчикам.</p>
+        <p>Только в этом случае вирус со 100%-ной точностью будет обнаружен и удален из памяти компьютера, а потом — и
+          из всех проверяемых файлов. Если же вирус неизвестен, то он может достаточно успешно противостоять попыткам
+          его обнаружения и лечения. Поэтому главное при пользовании любым полифагом — как можно чаще обновлять версии
+          программы и вирусные базы.</p>
+        <p><i>Эвристические анализаторы.</i> Существует большое количество вирусов, алгоритм которых практически
+          скопирован с алгоритма других вирусов. Как правило, такие вариации создают непрофессиональные программисты,
+          которые по каким-то причинам решили написать вирус. Для борьбы с такими «копиями» и были придуманы
+          эвристические анализаторы. С их помощью антивирус способен находить подобные аналоги известных вирусов,
+          сообщая пользователю, что у него, похоже, завелся вирус. Естественно, надежность эвристического анализатора не
+          100 %, но все же его коэффициент полезного действия больше 50 %. Вирусы, которые не распознаются антивирусными
+          детекторами, способны написать только наиболее опытные и квалифицированные программисты.</p>
+        <p>Эвристическим анализатором кода называется набор подпрограмм, анализирующих код исполняемых файлов, памяти
+          или загрузочных секторов для обнаружения в нем разных типов компьютерных вирусов. Основной частью
+          эвристического анализатора является эмулятор кода. Эмулятор кода работает в режиме просмотра, т. е. его
+          основная задача — не выполнять код, а выявлять в нем всевозможные события, т. е. совокупность кода или вызов
+          определенной функции операционной системы, направленные на преобразование системных данных, работу с файлами,
+          или обнаруживать часто используемые вирусные конструкции. Грубо говоря, эмулятор просматривает код программы и
+          выявляет те действия, которые эта программа совершает. Если действия этой программы укладываются в какую-то
+          определенную схему, то делается вывод о наличии в программе вирусного кода.</p>
+        <p>Конечно, вероятность как пропуска, так и ложного срабатывания весьма высока. Однако правильно используя
+          механизм эвристики, пользователь может самостоятельно прийти к верным выводам. Например, если антивирус выдает
+          сообщение о подозрении на вирус для единичного файла, то вероятность ложного срабатывания весьма высока. Если
+          же такое повторяется на многих файлах (а до этого антивирус ничего подозрительного в этих файлах не
+          обнаруживал), то можно говорить о заражении системы вирусом с вероятностью, близкой к 100 %. Одним из наиболее
+          мощных эвристических анализаторов обладает антивирус Dr. Web.</p>
+        <p>Использование эвристического анализатора, помимо всего вышеперечисленного, позволяет также бороться с
+          <i>вирус-генераторами</i> и <i>полиморфными вирусами.</i></p>
+        <p>Классический метод определения вирусов по сигнатуре в этом случае вообще оказывается неэффективен.
+          Вирус-генератор — это специализированный набор библиотек, который позволяет пользователю легко сконструировать
+          свой собственный вирус, даже имея слабые познания в программировании. К написанной программе подключаются
+          библиотеки генератора, вставляются в нужных местах вызовы внешних процедур — и вот элементарный вирус
+          превратился в достаточно сложный продукт. Самое печальное, что в этом случае сигнатура вируса будет каждый раз
+          другая, поэтому отследить вирус оказывается возможным только по характерным вызовам внешних процедур — а это
+          уже работа эвристического анализатора. Полиморфный вирус имеет еще более сложную структуру. Само тело вируса
+          видоизменяется от заражения к заражению, при этом сохраняя свое функциональное наполнение.</p>
+        <p>В простейшем случае — если разбросать в теле вируса случайным образом ничего не исполняющие, пустые операторы
+          (типа «mov ах, ах» или «пор»), то тело вирусного кода претерпит значительные изменения, а алгоритм останется
+          прежним. В этом случае на помощь также приходит эвристический анализатор.</p>
+        <p><i>Программы-ревизоры.</i> Программы-ревизоры относятся к самым надежным средствам защиты от вирусов.
+          Ревизоры запоминают исходное состояние программ, каталогов и системных областей диска тогда, когда компьютер
+          не заражен вирусом, а затем периодически или по желанию пользователя сравнивают текущее состояние с исходным.
+          Обнаруженные изменения выводятся на экран монитора. Как правило, сравнение состояний производят сразу после
+          загрузки операционной системы. При сравнении проверяются длина файла, код циклического контроля (контрольная
+          сумма файла), дата и время модификации, другие параметры. Программы-ревизоры имеют достаточно развитые
+          алгоритмы, обнаруживают стелс-вирусы и могут даже очистить изменения версии проверяемой программы от
+          изменений, внесенных вирусом. К числу программ-ревизоров относится широко распространенная в России программа
+          Adinf.</p>
+        <p>Антивирусные программы-ревизоры позволяют обнаружить вирус. Чаще всего обнаружением вируса дело и
+          заканчивается. Существует блок лечения для популярного антивируса-ревизора Adinf, так называемый Cure Module,
+          но такой блок позволяет лечить лишь те файлы, которые не были заражены на момент создания базы данных
+          программы. Однако обнаружить вирус на компьютере (или даже подозрение на него) антивирусы-ревизоры могут с
+          большой степенью надежности. Обычно наиболее оптимальным является связка полифаг и ревизор. Ревизор служит для
+          обнаружения факта заражения системы. Если система заражена, то в дело пускается полифаг. Если же ему не
+          удалось уничтожить вирус, то можно обратиться к разработчику антивирусных средств — скорее всего, на компьютер
+          попал новый, неизвестный разработчикам вирус.</p>
+        <p>Основу работы ревизоров составляет контроль за изменениями, характерными для работы вирусных программ. В них
+          содержится информация: о контрольных суммах неизменяемых файлов, содержимом системных областей, адресах
+          обработчиков прерываний, размере доступной оперативной памяти и т. п. Вся остальная работа ревизора состоит в
+          сравнении текущего состояния диска с ранее сохраненными данными, поэтому крайне важно, чтобы все контрольные
+          таблицы создавались не на зараженной машине. Только в этом случае работа ревизора будет достаточно
+          эффективной. Итак, перейдем к стадиям работы программы-ревизора.</p>
+        <p><i>Контроль оперативной памяти.</i> Эта стадия проверки включает в себя процедуры обнаружения следов активных
+          загрузочных и stealth-вирусов в памяти компьютера. Если такие алгоритмы будут найдены, выдается
+          соответствующее предупреждение. Обычно сначала программа ищет уже знакомые вирусы. Далее программа проверяет,
+          изменился ли обработчик Intl3h. Если он изменился, то с вероятностью 90 % можно сказать, что компьютер
+          инфицирован загрузочным вирусом (загрузочные вирусы вынуждены перехватывать это прерывание с тем, чтобы после
+          своей активизации передать управление «нормальному» загрузочному сектору и система загрузилась без сбоев).
+          Ревизор выдает предупреждение об этом и сообщает адрес в памяти, по которому находится новый обработчик
+          Intl3h. В принципе информация о местонахождении обработчика необходима программистам и системным
+          администраторам, а рядовому пользователю следует обратить внимание на предупреждение. Даже если ревизор
+          устанавливается на уже зараженный вирусом компьютер и реальный адрес обработчика inti 3h маскируется вирусом,
+          в 85 % случаев ревизору удается обнаружить истинный адрес обработчика Intl3h в BIOS и работать, используя его.
+          Если по каким-либо причинам ревизору не удалось получить реальный адрес обработчика, то выдается
+          предупреждение. Истинный адрес обработчика прерывания достигается путем пошагового просмотра тела вируса (по
+          алгоритму своей работы загрузочный вирус вынужден, в конце концов, передавать управление оригинальному
+          обработчику).</p>
+        <p>Некоторые вирусы блокируют трассировку прерываний: при попытке трассировать их коды они приводят систему к
+          «зависанию», перезагружают компьютер и т. д. Поэтому, если при трассировке прерываний компьютер начинает вести
+          себя «странно», то следует быть очень осторожным — не исключено, что оперативная память поражена вирусом.</p>
+        <p>Важным параметром является и размер свободной оперативной памяти. Обычно ревизор запускается самым первым, до
+          загрузки каких-либо программ. Если же размер оперативной памяти уменьшился — это верный признак присутствия в
+          ОЗУ еще какой-то программы. Скорее всего, программа эта — вирус.</p>
+        <p><i>Контроль системных областей.</i> Контроль системных областей предназначен для обнаружения вирусов, которые
+          используют для своей активации механизм загрузки. Первой с диска загружается загрузочная запись (boot record),
+          которая содержит в себе мини-программу, управляющую дальнейшей загрузкой. Для жесткого диска первой
+          производится загрузка главной загрузочной записи (MasterBootRecord или MBR).</p>
+        <p>Необходимо дать некоторые пояснения, связанные с обнаружением загрузочных вирусов. В случае если система
+          поражена загрузочным вирусом, то именно ему передается управление при попытке загрузиться с пораженного диска.
+          В этом опасность вируса — если поражен жесткий диск, то управление вирусу будет передаваться при каждом
+          включении компьютера. Загрузочные вирусы в чистом виде передаются исключительно через дискеты, причем
+          заражение осуществляется при попытке загрузиться с пораженной дискеты. Со временем использование дискет вообще
+          и загрузочных дискет, в частности, сократилось до минимума. Однако способ захвата управления оказался столь
+          удобен, что в настоящее время очень распространены вирусы, которые могут поражать как файлы, так и загрузочные
+          секторы. Попав на «чистый» компьютер, такие вирусы первым делом поражают главную загрузочную запись. Однако
+          методы обнаружения именно загрузочных вирусов в настоящее время крайне эффективны и приближаются к 100 %
+          надежности.</p>
+        <p>Чтобы понять, как происходит обнаружение вируса, рассмотрим обнаружение такого вируса «вручную». Произведем
+          загрузку с чистой дискеты (при этом прерывание 13h гарантированно не будет перехвачено загрузочным вирусом) и
+          рассмотрим сектор 0/0/1 винчестера (это физический адрес сектора главной загрузочной записи). Если винчестер
+          разделен (с помощью fdisk) на логические диски, то код занимает приблизительно половину сектора и начинается с
+          байтов FAh33hCOh (вместо 33h иногда может быть 2Bh). Заканчиваться код должен текстовыми строками типа
+          «Missing operating system». В конце сектора размещаются внешне разрозненные байты таблицы разделов. Нужно
+          обратить внимание на размещение активного раздела в таблице разделов. Если операционная система расположена на
+          диске С:, а активны 2-й, 3-й или 4-й разделы, то вирус мог изменить точку старта, сам разместившись в начале
+          другого логического диска (заодно нужно посмотреть и там). Но также это может говорить о наличии на машине
+          нескольких операционных систем и какого-либо boot-менеджера, обеспечивающего выборочную загрузку. Проверяем
+          всю нулевую дорожку. Если она чистая, т. е. секторы содержат только байт-заполнитель, все в порядке. Наличие
+          мусора, копий сектора 0/0/1 и прочего может говорить о присутствии загрузочного вируса. Впрочем, антивирусы
+          при лечении загрузочных вирусов лишь «обезглавливают» противника (восстанавливают исходное значение сектора
+          0/0/1). Проверяем boot-сектор MS-DOS, он обычно расположен в секторе 0/1/1. Его внешний вид для сравнения
+          можно найти на любой «чистой» машине. Примерно таким же способом действуют и программы-ревизоры. Их
+          особенность в том, что они не могут судить об изначальной «чистоте» оперативной памяти, поэтому чтение Master
+          Boot Record происходит тремя различными способами:</p>
+        <ul>
+          <li>(bios) — прямым обращением в BIOS;</li>
+          <li>(il3h) — чтением через BIOS-прерывание Intl3h;</li>
+          <li>(i25h) — чтением средствами операционной системы (прерывание Int25h).</li>
+        </ul>
+        <p>Если считанная информация не совпадает, налицо действие stealth-алгоритмов. Для большей надежности
+          производится чтение MBR через IDE-порты жесткого диска. До сих пор еще не встречались вирусы, которые могут
+          маскироваться от ревизора, обладающего такой функцией.</p>
+        <p>Аналогичным образом проводится проверка и простого (не главного) загрузочного сектора.</p>
+        <p>Обычно за счет того, что ревизор сохраняет резервную копию системных областей, восстановление повреждений от
+          загрузочного вируса происходит довольно просто: если пользователь дает на то свое согласие, ревизор просто
+          записывает системные области заново.</p>
+        <p><i>Контроль неизменяемых файлов.</i> Последняя стадия проверки, направленная на обнаружение деятельности
+          файловых вирусов, — контроль изменения файлов. Для всех файлов, которые активно используются и в то же время
+          не должны изменяться (обычно это программы типа win. com и т. п.), создаются контрольные таблицы. В них
+          содержатся значения контрольных сумм и размеров файлов. Затем, в ходе дальнейшего использования ревизора,
+          информация с дисков сравнивается с эталонной, хранящейся в таблицах. Если информация не совпадает, то весьма
+          вероятно нахождение в системе файлового вируса. Самый явный признак — изменение размера или содержимого файла
+          без изменения даты создания файла.</p>
+        <p>Очень важно определить, какие именно файлы являются неизменяемыми. При настройке программы ревизора данные о
+          неизменяемых файлах заносятся в таблицы, содержащие список имен файлов и каталогов, подлежащих контролю
+          ревизором. Каждая строка таблицы содержит одно имя или маску. В принципе, рекомендуется внести в разряд
+          «неизменяемых» те исполняемые файлы, путь к которым указан в переменной PATH. Они чаще всего становятся
+          жертвой файловых вирусов.</p>
+        <p>После того как все файлы проверены, ревизоры часто сохраняют копии дополнительных областей памяти, которые
+          могут быть испорчены вирусами. Это FLASH- и CMOS-память. Эти области памяти также изменяются достаточно редко
+          и поэтому их изменения могут быть подозрительны.</p>
+        <p>Еще раз отметим, что наиболее эффективной антивирусной защитой будет использование «связки» ревизор —
+          полифаг. Ревизор позволяет отследить активность вируса на диске, а поли- фаг служит для проверки новых файлов,
+          а также удаления уже известных вирусов.</p>
+        <p><i>Программы-фильтры,</i> или «сторожа», представляют собой небольшие резидентные программы, предназначенные
+          для обнаружения подозрительных действий при работе компьютера, характерных для вирусов. Такими действиями
+          могут являться:</p>
+        <ul>
+          <li>попытки коррекции файлов с расширениями сом, <span>ехе;</span></li>
+          <li>изменение атрибутов файла;</li>
+          <li>прямая запись на диск по абсолютному адресу;</li>
+          <li>запись в загрузочные секторы диска;</li>
+          <li>загрузка резидентной программы.</li>
+        </ul>
+        <p>При попытке какой-либо программы произвести указанные действия «сторож» посылает пользователю сообщение и
+          предлагает запретить или разрешить соответствующее действие. Программы-фильтры весьма полезны, так как
+          способны обнаружить вирус на самой ранней стадии его существования до размножения. Однако они не «лечат» файлы
+          и диски. Для уничтожения вирусов требуется применить другие программы, например фаги. К недостаткам
+          программ-сторожей можно отнести их «назойливость» (например, они постоянно выдают предупреждение о любой
+          попытке копирования исполняемого файла), а также возможные конфликты с другим программным обеспечением.
+          Примером программы-фильтра является программа Vsafe, входящая в состав пакета утилит MS DOS.</p>
+        <p>Вакцины, или иммунизаторы, — это резидентные программы, предотвращающие заражение файлов. Вакцины применяют,
+          если отсутствуют программы-доктора, «лечащие» от вируса. Вакцинация возможна только от известных вирусов.
+          Вакцина модифицирует программу или диск таким образом, чтобы это не отражалось на их работе, а вирус будет
+          воспринимать их зараженными и поэтому не внедрится. В настоящее время программы-вакцины имеют ограниченное
+          применение.</p>
+
+      </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <p class="footer__copy">© 2021 ГПОУ ТО "Донской колледж информационных технологий" Майорова&nbsp;Дарья
+        4&nbsp;&#8209;П&nbsp;&#8209;1</p>
+    </div>
+  </footer>
+  <script src="../../core.js"></script>
+</body>
+
+</html>

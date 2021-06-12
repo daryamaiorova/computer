@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Учебное пособие по дисциплине "Информационная безопасность"</title>
+  <link rel="shortcut icon" href="../../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../../core.css">
+</head>
+
+<body class="page__body">
+  <header class="header page__header">
+    <div class="header__container">
+      <img class="logo header__logo" src="../../img/logo.png" alt="логотип">
+
+      <button class="burger header__burger" type="button" aria-label="меню">
+        <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-width="2" d="M2 2h18v18H2z"></path>
+          <path d="M6 7h10.096M6 11h10.096M6 15h6" stroke-width="2" stroke-linecap="square"></path>
+        </svg>
+      </button>
+
+      <nav class="nav header__nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="../../index.html">Главная</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="../../1.html">Содержание</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="../../2.html">Пройти тестирование</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <aside class="aside page__aside">
+    <nav class="nav-aside aside__nav">
+      <ul class="nav-aside__list">
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="../../1/1/index.html">Общие проблемы безопасности. Роль и место информационной
+            безопасности</a>
+          <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+          <ul class="nav-aside__list">
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../1/1/index.html">Национальные интересы и безопасность</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/1/1.html">История вопроса</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/1/2.html">Национальные интересы и безопасность России</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/1/3.html">Национальная безопасность, ее определения</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/1/4.html">Уровни обеспечения национальной безопасности</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/1/5.html">Основные угрозы безопасности России</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../1/2/index.html">Информационная безопасность</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/2/1.html">Информационная война</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/2/2.html">Информационное превосходство в обычных и информационных
+                    войнах</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/2/3.html">Информационное оружие</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/2/4.html">Принципы, основные задачи и функции обеспечения
+                    информационной безопасности</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/2/5.html">Отечественные и зарубежные стандарты в области
+                    информационной безопасности</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../1/3/index.html">Защита информации (ЗИ)</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/3/1.html">Основные предметные направления ЗИ</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/3/2.html">Правовые основы защиты информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/3/3.html">Уровни доступа к информации с точки зрения
+                    законодательства</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/3/4.html">Ответственность за нарушение законодательства в
+                    информационной сфере</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../1/4/index.html">Контрольные вопросы</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="../../2/1/1.html">Защита информации в автоматизированных системах обработки
+            данных</a>
+          <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+          <ul class="nav-aside__list">
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../2/1/1.html">Предмет и объекты защиты информации в автоматизированных
+                системах
+                обработки данных (АСОД)</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/1/1.html">Надежность информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/1/2.html">Уязвимость информации</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../2/2/index.html">Элементы и объекты защиты в АСОД</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/2/1.html">Дестабилизирующие факторы АСОД</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/2/2.html">Преднамеренные угрозы безопасности АСОД</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../2/3/index.html">Функции и задачи защиты информации</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/3/1.html">Функции непосредственной защиты информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/3/2.html">Обнаружение проявившихся дестабилизирующих факторов</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/3/3.html">Механизмы защиты</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/3/4.html">Управление механизмами защиты</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../2/4/index.html">Методы и системы защиты информации</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/4/1.html">Подтверждение подлинности пользователей и разграничение
+                    их доступа к компьютерным ресурсам</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/4/2.html">Общие сведения о контроле информационной целостности</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/4/3.html">Способы определения модификаций информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/4/4.html">Контроль правильности функционирования системы
+                    защиты</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../2/5/index.html">Контрольные вопросы</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="../../3/index.html">Криптографические методы защиты информации</a>
+          <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+          <ul class="nav-aside__list">
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../3/1/index.html">Криптология и основные этапы ее развития</a>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../3/2/index.html">Методы криптографического преобразования данных</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../3/2/1.html">Кодирование</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../3/2/2.html">Другие виды криптографического закрытия информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../3/2/3.html">Системы с открытым ключом</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../3/2/4.html">Электронная цифровая подпись</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../3/2/5.html">Криптографические стандарты DES и ГОСТ28147—89</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../3/3/index.html">Проблемы реализации методов криптографической защиты в
+                АСОД</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../3/3/1.html">Технические средства криптографии</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../3/3/2.html">Программные средства</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../3/3/3.html">Проблема управления ключами</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../3/3/4.html">Характеристики криптографических средств защиты</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../3/4/index.html">Контрольные вопросы</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="../../4/1/index.html">Защита информации в персональных компьютерах</a>
+          <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+          <ul class="nav-aside__list">
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../4/1/index.html">Особенности защиты информации в персональных ЭВМ</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/1/1.html">Угрозы информации в персональных ЭВМ</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/1/2.html">Цели защиты</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../4/2/index.html">Защита ПК от несанкционированного доступа</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/2/1.html">Физическая защита ПК и носителей информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/2/2.html">Опознавание (аутентификация) пользователей и
+                    используемых компонентов обработки информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/2/3.html">Разграничение доступа к элементам защищаемой
+                    информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/2/4.html">Криптографическое закрытие защищаемой информации,
+                    хранимой на носителях (архивация данных)</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/2/5.html">Регистрация всех обращений к защищаемой информации и
+                    исключение несанкционированного доступа</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/2/6.html">Защита от несанкционированного доступа к компьютеру при
+                    его оставлении без завершения сеанса работы</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../4/3/index.html">Вредоносные закладки в ПК и борьба с ними</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/3/1.html">Классификация закладок и их общие характеристики</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/3/2.html">Средства вторжения в частную жизнь</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/3/3.html">Компьютерные наблюдения</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/3/4.html">Компьютерный червь</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/3/5.html">Троянские программы</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/3/6.html">Прочие вредоносные программы</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/3/7.html">Факторы уязвимости систем для вредоносных программ</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/3/8.html">Проникновение шпионских программ</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/3/9.html">Aware и ряд других средств обеспечения безопасности
+                    ПК</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../4/4/index.html">Контрольные вопросы</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="../../5/1/1.html">Компьютерные вирусы и антивирусные программы</a>
+          <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+          <ul class="nav-aside__list">
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../5/1/1.html">Компьютерный вирус</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../5/1/1.html">История вопроса</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../5/1/2.html">Классификация вирусов</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../5/1/3.html">Алгоритмы вирусов</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../5/1/4.html">Признаки проявления вируса</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../5/2/index.html">Методы защиты. Антивирусы</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../5/2/1.html">Классы антивирусных программ</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../5/3/1.html">Некоторые примеры антивирусных программ</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../5/3/1.html">Программа-полифаг Aidstest</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../5/3/1.html">Антивирус Касперского 7.0</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../5/3/3.html">Антивирус-ревизор диска ADinf для Windows</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../5/3/4.html">Антивирусная программа Dr. Web</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../5/3/5.html">AntiVirus</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../5/4/index.html">Контрольные вопросы</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="../../6/1/index.html">Проблемы защиты информации в сетях эвм</a>
+          <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+          <ul class="nav-aside__list">
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../6/1/index.html">Сети ЭВМ — построение и использование</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/1/1.html">Элементы сетей</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/1/2.html">Сетевые операционные системы (ОС)</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/1/3.html">Межсетевое взаимодействие</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/1/4.html">Прикладное программное обеспечение в ЛВС</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../6/2/1.html">Цели, функции и задачи защиты информации в сетях ЭВМ</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/2/1.html">Цели защиты информации в сетях ЭВМ</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/2/2.html">Особенности защиты информации в вычислительных сетях</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/2/3.html">Понятие сервисов безопасности</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/2/4.html">Международные стандарты</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../6/3/index.html">Архитектура механизмов защиты информации в сетях ЭВМ</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/3/1.html">Услуги механизмов защиты</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/3/2.html">Методы цифровой подписи данных, передаваемых в сети</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/3/3.html">Пример системы защиты локальной вычислительной сети</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/3/4.html">Межсетевые экраны — брандмауэры (FireWall)</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/3/5.html">Прокси - (Proxy) серверы</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/3/6.html">Примеры систем активного аудита</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../6/4/index.html">Контрольные вопросы</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="../../7/1/1.html">Технические средства и комплексное обеспечение
+            безопасности</a>
+          <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+          <ul class="nav-aside__list">
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../7/1/1.html">Технические средства защиты</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../7/1/1.html">Классы ТСЗ</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../7/1/2.html">Типы систем защиты</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../7/1/3.html">Системы опознавания</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../7/1/4.html">Оборонительные системы</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../7/1/5.html">Охранное освещение</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../7/1/6.html">Средства контроля доступа</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../7/1/7.html">Центральный пост и персонал охраны</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../7/2/index.html">Комплексный подход к обеспечению безопасности</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../7/2/1.html">Комплекс физической защиты</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../7/2/2.html">Некоторые образцы технических средств обеспечения
+                    информационной и общей безопасности</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../7/2/3.html">Средства обнаружения/подавления</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../7/3/index.html">Контрольные вопросы</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="../../8/index.html">Заключение</a>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="../../9/index.html">Список литературы</a>
+        </li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main class="main page__main">
+    <header class="main__header">
+      <h1 class="main__header-title">Aware и ряд других средств обеспечения безопасности ПК</h1>
+    </header>
+    <div class="main__content">
+      <div class="main__content-inner">
+        <h2>Aware и ряд других средств обеспечения безопасности ПК</h2>
+        <p>Ad-Aware является представителем современного поколения программ поиска и удаления ЗПС. Использует новую
+          технологию идентификации кодовых последовательностей (Code Sequence Identification — CSI), которая позволяет
+          не только обнаруживать ранее известные образцы ЗПС, но также предсказывать свойства и зафиксировать их
+          неизвестные варианты. Ad-Aware обнаруживает и удаляет также запущенные вредоносные процессы, определяет
+          наличие вредоносных закладок в компьютере пользователя, оценивает уровень угрозы, а затем предоставляет
+          пользователю возможность удалить нежелательное содержание.</p>
+        <p>Ad-Aware позволяет полностью проверить память ПК, НЖМД, НГМД, CD/DVD-накопители и обнаружить известные
+          экземпляры таких вредоносных закладок, как анализаторы данных (Data miners), программы навязчивого
+          рекламирования (Aggressive advertising), программы-паразиты (Parasites), шпионские программы (Spyware,
+          Scumware, Malware), перехватчики клавиатуры (Keyloggers), номеронабиратели (Dialers), захватчики браузеров
+          (Browser hijackers), а также традиционные троянцы (Trojans) и ряд других кодов.</p>
+        <p>Сканируется также реестр операционной системы и, если там обнаруживается запись, установленная вредоносной
+          программой, она удаляется. Для предотвращения случайного удаления нужного файла или записи в реестре
+          предусмотрена функция восстановления (для этого автоматически создаются копии удаляемых данных).</p>
+        <p>Программный продукт выпускается в трех версиях (уровнях):</p>
+        <ul>
+          <li>Free — распространяется свободно, ограниченная функциональность;</li>
+          <li>Plus — коммерческое распространение, расширенная функциональность;</li>
+        </ul>
+
+        <p>Pro — профессиональная версия, максимальная функциональность.</p>
+        <p>Приведенные ниже иллюстрации (рис. 4.4—4.10) соответствуют Ad-Aware Free.</p>
+        <p><i>Системные требования:</i></p>
+        <ul>
+          <li>процессор: Intel Pentium 600 МГц (или выше);</li>
+          <li>оперативная память: требования операционной системы + + 100 Мбайт;</li>
+          <li>НЖМД: 100 Мбайт свободного пространства;</li>
+          <li>операционные системы: Windows 7, Windows Vista (32 или 64 бит), Windows ХР (32 бита), Windows 2000 Pro.
+          </li>
+        </ul>
+        <p><i>Интерфейс приложения.</i> На рис. 4.4 приводится основной экран Ad-Aware.</p>
+        <figure>
+          <img src="../../img/401.png" alt="Основной экран (The Main screen) Ad-Aware">
+          <figcaption>
+            <p>Рис. 4.4. <strong>Основной экран (The Main screen) Ad-Aware:</strong></p>
+          </figcaption>
+        </figure>
+        <p>/ — Главное меню (Main); <i>2</i> — Настройки (Settins); <i>3</i> — переключение режимов (Switch mode)</p>
+        <p>Основной экран отображает статус действующих настроек и состояния приложения — версия последнего обновления,
+          результаты сканирования и работы монитора реального времени (Ad-Watch Live!), новости разработчика; кнопки
+          контакта с группой поддержки и управления лицензией. Функции управляющих кнопок основного экрана:</p>
+        <ul>
+          <li>Web Update — открывает Update Manager, который позволяет загрузить и установить обновления баз данных
+            системы;</li>
+          <li>Scan System — включает процесс сканирования, в процессе которого осуществляется проверка компьютера и
+            выполнение действий над подозрительными объектами в соответствии с настройками;</li>
+          <li>Ad-Watch Live! — открывает экран защиты в реальном времени.</li>
+        </ul>
+        <p>В правом верхнем углу основного экрана расположены кнопки Главного меню, которые позволяют переключаться
+          между основными режимами работы (табл. 4.3).</p>
+        <p><i>Таблица 4.3.</i><b> Кнопки </b><b>Главного меню (Main Menu)</b></p>
+        <table border="1">
+          <tr>
+            <td>
+              <img src="../../img/402.png" alt="">
+            </td>
+            <td>
+              <p>Открывает основной экран (Main status screen, рис. 4.4)</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="../../img/403.png" alt="">
+            </td>
+            <td>
+              <p>Открывает экран сканирования (scan Mode, рис. 4.5), где может быть задан режим сканирования и
+                осуществлен запуск процесса</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="../../img/404.png" alt="">
+            </td>
+            <td>
+              <p>Открывает экран защиты в реальном времени</p>
+              <p>(Ad-Watch Live, рис. 4.11)</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="../../img/405.png" alt="">
+            </td>
+            <td>
+              <p>Открывает экран дополнительных инструментов (Extras, рис. 4.12)</p>
+            </td>
+          </tr>
+        </table>
+        <p>Поскольку не всем пользователям необходим полный набор возможностей настройки и выполнения процедур защиты,
+          предусмотрено переключение между двумя режимами:</p>
+        <p>ЫВЗШШ — режим работы пользователя - эксперта;</p>
+        <p>— режим работы обычного пользователя.</p>
+        <p>Основной экран содержит также следующие средства управления:</p>
+        <p><sup>—</sup> вызов руководства по эксплуатации приложения;</p>
+        <p>Ц — получение информация о продукте и условиях его распространения;</p>
+        <p><b>О settings </b>_ настройка системы на потребности пользователя.</p>
+        <p><i>Сканирование компьютерной системы.</i> При нажатии клавиши Scan осуществляется переход к установке режима
+          сканирования с последующим его запуском (рис. 4.5):</p>
+        <ul>
+          <li>выборочное сканирование (Smart Scan) — быстрая проверка элементов системы, наиболее уязвимых для
+            вредоносных программных средств. Проверке подлежат запущенные программы, приложения, конфигурированные с
+            автозапуском и ряд других областей и объектов. Режим рекомендуется для ежедневного выполнения;</li>
+          <li>полное сканирование (Full Scan) — процесс тотальной проверки всех объектов на наличие признаков
+            злонамеренного программного обеспечения. Проверку в этом режиме рекомендуется выполнять сразу же после
+            установки Ad- Aware, а затем периодически повторять (один раз в 3—4 недели);</li>
+          <li>профильное сканирование (Profile Scan) — режим предназначен для более тонкой настройки пользователем
+            особенностей сканирования. Профиль создается пользовате-</li>
+        </ul>
+        <figure>
+          <img src="../../img/406.png" alt="">
+          <figcaption>
+            <p><b>Рис. 4.5. Экран выбора режима сканирования (Choose a Scan Mode).</b></p>
+          </figcaption>
+        </figure>
+        <p>Показаны настройки профильного
+          сканирования лем (рис. 4.6) и содержит информацию (13 секций), сужающую или расширяющую спектр обрабатываемых
+          объектов:</p>
+        <ul>
+          <li>— Rootkits: борьба с методом маскирования файлов или процессов от обычных средств наблюдения. Эта
+            технология часто используется ЗПС для сокрытия своего присутствия и действий;</li>
+          <li>— Behavior-based detection: определение присутствия неизвестных ЗПС на основе системы правил и шаблонов;
+          </li>
+          <li>— Archives: осуществлять сканирование внутри архивов, таких как . zip и . гаг;</li>
+          <li>— Executable files only: сканировать только файлы программ с расширением .ехе;</li>
+          <li>— Skip files larger than: при сканировании будут пропущены файлы имеющие размер, больший указанного. Это
+            может снизить время сканирования вследствие пропуска больших (вероятно незаряженных) файлов, содержащих
+            графическую, звуковую или иную мультимедийную информацию;</li>
+          <li>— Folders to Scan: позволяет задать специфические каталоги (папки) на дисках компьютера;</li>
+          <li>— Critical areas: задание сканирования критических областей компьютера;</li>
+          <li>— Running applications: проверка активных программ, располагающихся в данный момент в памяти ПК;</li>
+          <li>— Windows registry: проверка известных областей реестра, обычно используемых ЗПС;</li>
+        </ul>
+        <figure>
+          <img src="../../img/407.png" alt="">
+          <figcaption>
+            <p><b>Рис. 4.6. Экран настройки пользовательского профиля сканирования</b></p>
+          </figcaption>
+        </figure>
+        <ul>
+          <li>— Layered Service Providers (LSP): определение и дезактивация провайдеров сетевых услуг, который могут
+            использоваться ЗПС для исследования и использования сетевой активности пользователя ПК;</li>
+          <li>— Alternate Data Stream (ADS): анализ альтернативных потоков данных, которые могут использоваться ЗПС;
+          </li>
+          <li>— Hosts file: сканирование файлов указателей серверов (хостов). Запоминаемые Internet-браузерами
+            хост-файлы могут редактироваться посредством ЗПС для переадресации Internet-трафика пользователя;</li>
+          <li>— Most Recently Used (MRUs): анализ недавно открывавшихся файлов, программ и других объектов;</li>
+          <li>— Browser hijacks: исследование настроек браузера (например, стартовая страница или поисковая система по
+            умолчанию) для установления подозрительных Internet- адресов (URL);</li>
+          <li>— Tracking cookies: анализ содержания текстовых файлов трекинга, описывающих историю Internet-активности
+            пользователя, для выявления вторжения ЗПС. При необходимости — их уничтожение;</li>
+          <li>— Close browsers when deleting cookies: если выбрана эта опция, браузер будет автоматически закрыт после
+            уничтожения файлов трекинга;</li>
+          <li>— Anti-virus engine: проверка использования Ad-Aware расширенного антивирусного сканера.</li>
+        </ul>
+        <p>Кнопки ОК и Cancel позволяют принять или отвергнуть предлагаемые настройки сканера.</p>
+        <p>После выбора режима сканирования необходимо нажать кнопку Scan Now, после чего процесс сканирования стартует
+          и появляется экран, отражающий его ход (Scanning System, рис. 4.7). Экран сканирования содержит следующую
+          информацию:</p>
+        <ul>
+          <li>Scan Mode: режим сканирования;</li>
+          <li>Scan Time: время прошедшее с момента начала процесса;</li>
+          <li>Current Section: обрабатываемый в данный момент тип</li>
+        </ul>
+        <p>объектов;</p>
+        <ul>
+          <li>Objects Scanned: количество просканированных объектов;</li>
+          <li>Objects Detected: число обнаруженных подозрительных</li>
+        </ul>
+        <p>объектов;</p>
+        <p>Current Object: текущий объект и его тип.</p>
+        <p>По завершению сканирования после исчерпания списков подлежащих проверке объектов либо по нажатию
+          пользователем</p>
+        <p>кнопки stop Scan, осуществляется переход к экрану результатов сканирования (рис. 4.8).</p>
+        <figure>
+          <img src="../../img/408.png" alt="">
+          <figcaption>
+            <p><b>Рис. 4.7. Экран процесса сканирования</b></p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="../../img/409.png" alt="">
+          <figcaption>
+            <p><b>Рис. 4.8. Экран результатов сканирования</b></p>
+          </figcaption>
+        </figure>
+        <p><i>Результаты сканирования</i> <b>(Scan Results). </b>Экран результатов сканирования содержит информацию о
+          выполненной проверке и тех объектах, которые были обнаружены.</p>
+        <p>Обнаруженные объекты объединяются в группы, для каждой из которых указаны рекомендуемые действия, которые
+          могут быть изменены пользователем:</p>
+        <ul>
+          <li>Группа (Family) — совокупность представителей злонамеренных ПС, обладающих похожим программным кодом
+            и/или поведением;</li>
+          <li>Подробно (Details) — тип и наименование объекта;</li>
+        </ul>
+        <p>Для действий (Action) возможны следующие варианты:</p>
+        <ul>
+          <li>Рекомендованные (Recommended) — разработанные экспертами Lavasoft рекомендации, организованные в
+            специальный список «SmartSet»;</li>
+          <li>Выбранные пользователем (Custom), в том числе:</li>
+          <li>(5) Поместить в карантин (Quarantine all) — изолировать все объекты данной группы с возможностью
+            дальнейшего восстановления и/или «лечения»;</li>
+          <li>? Удалить (Remove all) — удалить все объекты данной группы;</li>
+        </ul>
+        <p>Исправить/«Вылечить» (Repair all) — Ad-Aware предпримет попытку восстановить объект путем удаления из него
+          отрезка злонамеренного кода, либо иными способами; Q Пропустить (Allow all Once) — пользователь считает
+          обнаруженный объект безвредным и он будет оставлен в системе. При повторной проверке объект будет снова
+          обнаружен;</p>
+        <p>Q Добавить в список игнорируемых (Add all То Ignore List) — внести объект в список, содержащий другие
+          объекты, которые пользователь посчитал неопасными и которые будут пропущены при повторных сканированиях
+          системы.</p>
+        <p>Некоторые действия не могут быть выполнены над всеми объектами. Например, для объектов Tracking Cookies
+          невозможно помещение в карантин.</p>
+        <p>Для приведения в исполнение выбранных действий необходимо нажать кнопку Reform Actions Now (немедленное
+          выполнение), после чего система осуществляет необходимые действия и выводит итоговый экран с указанием
+          количества сканированных объектов, найденных и обработанных экземпляров подозрительных программных средств
+          (рис. 4.9).</p>
+        <figure>
+          <img src="../../img/410.png" alt="">
+          <figcaption>
+            <p><b>Рис. 4.9. Итоговый экран сканирования и обработки объектов</b></p>
+          </figcaption>
+        </figure>
+        <p><i>Карантин</i> (Quarantine) — область, используемая для изоляции и сохранения подозрительных объектов,
+          обнаруженных Ad-Aware при сканировании. Объекты в карантине находятся в зашифрованном и сжатом виде и могут
+          быть прочитаны и восстановлены только средствами Ad-Aware по специальной базе данных карантинного списка
+          (Quarantine List). В таком состоянии данные объекты не могут представлять угрозу для ПК.</p>
+        <p>Для открытия Ad-Aware Quarantine List следует нажать кнопку Quarantine итогового экрана (рис. 4.10). Над
+          объектами карантинного списка могут быть выполнены следующие действия:</p>
+        <ul>
+          <li>Восстановить (Restore Quarantined Objects) — осуществляется восстановление объекта до состояния, в
+            котором он находился до момента обнаружения сканером;</li>
+          <li>Удалить (Remove Quarantined Objects) — удаление объекта из системы;</li>
+          <li>Не предпринимать никаких действий (Do Nothing) — оставить объект в карантине.</li>
+        </ul>
+
+        <p>После выбора необходимых действий нажатие кнопки Perform Actions осуществит их применение к объектам
+          карантина.</p>
+        <figure>
+          <img src="../../img/411.png" alt="">
+          <figcaption>
+            <p><b>Рис. 4.10. Экран карантина (Quarantine)</b></p>
+          </figcaption>
+        </figure>
+        <p><i>Монитор реального времени Ad-Watch.</i> В то время как сканер в Ad-Aware находит и удаляет вредоносные ПС
+          из системы, Ad-Watch осуществляет текущий контроль ситуации, используя 4 независимых модуля защиты: Files,
+          Processes, Registry и Network (рис. 4.11). Подозрительные файлы, процессы, изменения в системном реестре и
+          IP-адреса автоматически блокируются. При этом выдается извещение, предоставляющее пользователю выбор между
+          разрешением и запретом на запуск заблокированных процессов.</p>
+        <p><i>Дополнительные возможности</i> (Extras). Одной из таких полезных возможностей является функция очистки
+          трекинга (TrackSweep, буквально — «заметание следов», рис. 4.12). Эта функция позволяет очистить
+          Internet-браузер компьютера от истории всех перемещений пользователя по сети, что существенно</p>
+        <figure>
+          <img src="../../img/412.png" alt="">
+          <figcaption>
+            <p><b>Рис. 4.11. Экран монитора реального времени</b></p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="../../img/413.png" alt="">
+          <figcaption>
+            <p><b>Рис. 4.12. Экран дополнительных возможностей (Extras) ограничивает возможности отслеживания
+              Internet-активности пользователя злонамеренными программами.</b></p>
+          </figcaption>
+        </figure>
+        <p>Для реализации данной функции необходимо нажатие кнопки Sweep Now экрана рис. 4.12 при предварительно
+          отключенном Web-браузере.</p>
+        <p><i>Некоторые другие программно-технические изделия.</i> В заключение приведем характеристики выборочного
+          списка (табл. 4.4) программно-технических изделий, ориентированных на обеспечение защиты информации в ПК.</p>
+        <p><i>Таблица 4.4.</i><b> Некоторые программно-технические изделия, предназначенные для защиты информации в
+            ПК</b></p>
+        <table border="1">
+          <tr>
+            <td>
+              <p>Программно-техническое</p>
+              <p>изделие</p>
+            </td>
+            <td>
+              <p>Функции/общий вид изделия</p>
+            </td>
+            <td>
+              <p>Принципы функционирования и характеристики</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>zbackup — защита информации при резервном копировании</p>
+            </td>
+            <td>
+              <p>Зашифровка данных при записи на ленту, CD или DVD и расшифровка при чтении. Ключи шифрования хранятся
+                на смарт-карте, защищенной PIN-кодом. Три попытки неправильного ввода PIN-ko- да блокируют карту.
+                Предоставляется возможность удаленного ввода ключей шифрования и администрирования системы с любой
+                рабочей станции локальной сети или через Internet</p>
+            </td>
+            <td>
+              <p>Использование для шифрования данных криптостойких алгоритмов шифрования с длиной ключа от 128 бит.
+                Возможность подключения сертифицированного ФАПСИ криптографического модуля или платы «Криптон»,
+                реализующих алгоритм шифрования ГОСТ 28147—89 с длиной ключа 256 бит. Формирование уникальных ключей
+                шифрования на основе последовательности случайных чисел. Возможность подачи сигнала «тревога»</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>zdisk — защита данных в ноутбуках и на НЖМД</p>
+            </td>
+            <td>
+              <p>Защита в ситуации похищения ноутбука или изъятия НЖМД и подключения его к другому компьютеру</p>
+            </td>
+            <td>
+              <p>Создание на НЖМД защищенной области — виртуального логического диска, где информация хранится в
+                зашифрованном виде и доступна только по ключу шифрования. Для работы с защищенными данными следует
+                воспользоваться электронным ключом и ввести пароль. После с виртуальным диском можно работать так же,
+                как с обычным НЖМД или съемным USB-диском. Пароль для «входа под принуждением» позволяет в экстренной
+                ситуации сымитировать системный сбой и потерю защищенных данных</p>
+            </td>
+          </tr>
+        </table>
+        <p><i>Продолжение табл. 4.4</i></p>
+        <table border="1">
+          <tr>
+            <td>
+              <p>Программно-техническое</p>
+              <p>изделие</p>
+            </td>
+            <td>
+              <p>Функции/общий вид изделия</p>
+            </td>
+            <td>
+              <p>Принципы функционирования и характеристики</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Zserver — шифрование данных на диске</p>
+            </td>
+            <td>
+              <p>Защита в случае физического доступа злоумышленника к носителю с конфиденциальной информацией в случаях:
+                размещения серверов в стороннем дата-центре; отправки серверов или НЖМД в ремонт; перевозки компьютеров
+                из одного офиса в другой; утилизации компьютеров, серверов, НЖМД и лент; хранения МЛ в специальном
+                депозитарии; перевозки МЛ, например, в депозитарий; кражи или потери НЖМЛ/МЛ</p>
+            </td>
+            <td>
+              <p>Защита информации, размещенной на НЖМД, на дисковых массивах (RAID-массивы любых конфигураций) и в
+                хранилищах SAN методом прозрачного шифрования</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>ziock —разграничение прав доступа пользователей к внешним устройствам и портам рабочих станций в
+                масштабе предприятия</p>
+            </td>
+            <td>
+              <p>Для каждого физического или логического устройства и для каждого пользователя или группы пользователей
+                ИЗ Active Directory можно разрешить либо полный доступ, либо только чтение, либо запретить доступ</p>
+            </td>
+            <td>
+              <p>Подключаемые USB-устройства могут идентифицироваться по любым признакам, таким как класс устройства,
+                код производителя, код устройства, серийный номер и т. д., что позволяет назначать разные права доступа
+                к устройствам. Возможность настройки доступа к устройствам по расписанию. Функция мониторинга клиентских
+                модулей, которая обеспечивает своевременное уведомление о подключениях внешних устройств, как
+                запрещенных, так и разрешенных, а также о попытках несанкционированной деактивации клиентского модуля и
+                изменения настроек системы</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>ziogin — аутентификация пользователей</p>
+            </td>
+            <td>
+              <p>Двухфакторная аутентификации пользователей сети с использованием электронных ключей. Пользователь
+                должен предъявить электронный USB-ключ и ввести PIN-код</p>
+            </td>
+            <td>
+              <p>После загрузки ОС пользователю предлагается вставить ключ и ввести PIN-код. После ввода правильного
+                PIN-кода система считывает с электронного ключа профиль пользователя и осуществляет аутентификацию
+                сначала в Windows-домен или локально на рабочую станцию, и, если эта операция завершена успешно, в NDS
+                (если в профиле имеются соответствующие</p>
+            </td>
+          </tr>
+        </table>
+        <p><i>Окончание табл. 4.4</i></p>
+        <table border="1">
+          <tr>
+            <td>
+              <p>Программно-техническое</p>
+              <p>изделие</p>
+            </td>
+            <td>
+              <p>Функции/общий вид изделия</p>
+            </td>
+            <td>
+              <p>Принципы функционирования и характеристики</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+              <p>данные). Если ни один из серверов NDS не доступен, то пользователь может продолжить работу в Windows
+                без доступа к соответствующим ресурсам NetWare</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Printer Activity Monitor — контроль принтеров</p>
+            </td>
+            <td>
+              <p>Централизованный контроль всех принтеров организации, выявление и пресечение попыток использования
+                офисных принтеров в личных целях сотрудников</p>
+            </td>
+            <td>
+              <p>При запуске компьютера модуль PrinterMon. ехе загружается в память, где находится на протяжении всего
+                сеанса работы с компьютером. Информация о распечатываемых документах (название документа, имя принтера,
+                компьютера, пользователя, количество распечатываемых стра- ниц/байтов, и т. д.) сохраняется в базе
+                данных. Для выдачи отчета о распечатанных документах служит модуль PrinterActivityMonitor.ехе</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>«Шкатулка» — устройство стирания информации</p>
+            </td>
+            <td>
+              <img src="../../img/414.png" alt="">
+            </td>
+            <td>
+              <p>Не требует электропитания; может эксплуатироваться в любых условиях и не требует протяжки магнитной
+                ленты вдоль рабочей области прибора при уничтожении информации; не имеет механических и гидравлических
+                приводов; маскировка под интерьер рабочего стола.</p>
+              <p>Напряженность магнитного поля — 340 кА/м; вес — не более 4 кг; размеры —145 х 90 х 100 мм; беспрерывная
+                работа — не менее 10 лет</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>«ПК 2С-994-В1» — устройство уничтожения информации на НЖМД</p>
+            </td>
+            <td>
+              <img src="../../img/415.png" alt="">
+            </td>
+            <td>
+              <p>Стирание производится нажатием потайной кнопки или дистанционно (радиобрелок). Устанавливается на
+                штатное место 5,25"-устройств. Не имеет с компьютером электрических соединений. Время стирания
+                информации менее 0,1 с. Только внешнее электропитание. Защита жестких дисков, дискет и кассет стримера
+                непосредственно в устройствах чтения-записи. Имеет сертификаты: Управления Генштаба МО; МО в системе
+                сертификации «Военный регистр» ГОССТАНДАРТА</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <p class="footer__copy">© 2021 ГПОУ ТО "Донской колледж информационных технологий" Майорова&nbsp;Дарья
+        4&nbsp;&#8209;П&nbsp;&#8209;1</p>
+    </div>
+  </footer>
+  <script src="../../core.js"></script>
+</body>
+
+</html>

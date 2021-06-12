@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Учебное пособие по дисциплине "Информационная безопасность"</title>
+  <link rel="shortcut icon" href="../../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../../core.css">
+</head>
+
+<body class="page__body">
+  <header class="header page__header">
+    <div class="header__container">
+      <img class="logo header__logo" src="/img/logo.png" alt="логотип">
+
+      <button class="burger header__burger" type="button" aria-label="меню">
+        <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-width="2" d="M2 2h18v18H2z"></path>
+          <path d="M6 7h10.096M6 11h10.096M6 15h6" stroke-width="2" stroke-linecap="square"></path>
+        </svg>
+      </button>
+
+      <nav class="nav header__nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="../../index.html">Главная</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="../../1.html">Содержание</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="../../2.html">Пройти тестирование</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <aside class="aside page__aside">
+    <nav class="nav-aside aside__nav">
+      <ul class="nav-aside__list">
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="/1/1/index.html">Общие проблемы безопасности. Роль и место информационной
+            безопасности</a>
+          <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+          <ul class="nav-aside__list">
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="/1/1/index.html">Национальные интересы и безопасность</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/1/1/1.html">История вопроса</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/1/1/2.html">Национальные интересы и безопасность России</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/1/1/3.html">Национальная безопасность, ее определения</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/1/1/4.html">Уровни обеспечения национальной безопасности</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/1/1/5.html">Основные угрозы безопасности России</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="/1/2/index.html">Информационная безопасность</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/1/2/1.html">Информационная война</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/1/2/2.html">Информационное превосходство в обычных и информационных
+                    войнах</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/1/2/3.html">Информационное оружие</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/1/2/4.html">Принципы, основные задачи и функции обеспечения
+                    информационной безопасности</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/1/2/5.html">Отечественные и зарубежные стандарты в области
+                    информационной безопасности</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="/1/3/index.html">Защита информации (ЗИ)</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/1/3/1.html">Основные предметные направления ЗИ</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/1/3/2.html">Правовые основы защиты информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/1/3/3.html">Уровни доступа к информации с точки зрения
+                    законодательства</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/1/3/4.html">Ответственность за нарушение законодательства в
+                    информационной сфере</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="/1/4/index.html">Контрольные вопросы</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="/2/1/1.html">Защита информации в автоматизированных системах обработки
+            данных</a>
+          <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+          <ul class="nav-aside__list">
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="/2/1/1.html">Предмет и объекты защиты информации в автоматизированных
+                системах
+                обработки данных (АСОД)</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/2/1/1.html">Надежность информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/2/1/2.html">Уязвимость информации</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="/2/2/index.html">Элементы и объекты защиты в АСОД</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/2/2/1.html">Дестабилизирующие факторы АСОД</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/2/2/2.html">Преднамеренные угрозы безопасности АСОД</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="/2/3/index.html">Функции и задачи защиты информации</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/2/3/1.html">Функции непосредственной защиты информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/2/3/2.html">Обнаружение проявившихся дестабилизирующих факторов</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/2/3/3.html">Механизмы защиты</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/2/3/4.html">Управление механизмами защиты</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="/2/4/index.html">Методы и системы защиты информации</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/2/4/1.html">Подтверждение подлинности пользователей и разграничение
+                    их доступа к компьютерным ресурсам</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/2/4/2.html">Общие сведения о контроле информационной целостности</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/2/4/3.html">Способы определения модификаций информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/2/4/4.html">Контроль правильности функционирования системы
+                    защиты</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="/2/5/index.html">Контрольные вопросы</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="/3/index.html">Криптографические методы защиты информации</a>
+          <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+          <ul class="nav-aside__list">
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="/3/1/index.html">Криптология и основные этапы ее развития</a>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="/3/2/index.html">Методы криптографического преобразования данных</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/3/2/1.html">Кодирование</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/3/2/2.html">Другие виды криптографического закрытия информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/3/2/3.html">Системы с открытым ключом</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/3/2/4.html">Электронная цифровая подпись</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/3/2/5.html">Криптографические стандарты DES и ГОСТ28147—89</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="/3/3/index.html">Проблемы реализации методов криптографической защиты в
+                АСОД</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/3/3/1.html">Технические средства криптографии</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/3/3/2.html">Программные средства</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/3/3/3.html">Проблема управления ключами</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/3/3/4.html">Характеристики криптографических средств защиты</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="/3/4/index.html">Контрольные вопросы</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="/4/1/index.html">Защита информации в персональных компьютерах</a>
+          <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+          <ul class="nav-aside__list">
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="/4/1/index.html">Особенности защиты информации в персональных ЭВМ</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/4/1/1.html">Угрозы информации в персональных ЭВМ</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/4/1/2.html">Цели защиты</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="/4/2/index.html">Защита ПК от несанкционированного доступа</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/4/2/1.html">Физическая защита ПК и носителей информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/4/2/2.html">Опознавание (аутентификация) пользователей и
+                    используемых компонентов обработки информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/4/2/3.html">Разграничение доступа к элементам защищаемой
+                    информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/4/2/4.html">Криптографическое закрытие защищаемой информации,
+                    хранимой на носителях (архивация данных)</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/4/2/5.html">Регистрация всех обращений к защищаемой информации и
+                    исключение несанкционированного доступа</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/4/2/6.html">Защита от несанкционированного доступа к компьютеру при
+                    его оставлении без завершения сеанса работы</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="/4/3/index.html">Вредоносные закладки в ПК и борьба с ними</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/4/3/1.html">Классификация закладок и их общие характеристики</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/4/3/2.html">Средства вторжения в частную жизнь</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/4/3/3.html">Компьютерные наблюдения</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/4/3/4.html">Компьютерный червь</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/4/3/5.html">Троянские программы</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/4/3/6.html">Прочие вредоносные программы</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/4/3/7.html">Факторы уязвимости систем для вредоносных программ</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/4/3/8.html">Проникновение шпионских программ</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/4/3/9.html">Aware и ряд других средств обеспечения безопасности
+                    ПК</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="/4/4/index.html">Контрольные вопросы</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="/5/1/1.html">Компьютерные вирусы и антивирусные программы</a>
+          <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+          <ul class="nav-aside__list">
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="/5/1/1.html">Компьютерный вирус</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/5/1/1.html">История вопроса</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/5/1/2.html">Классификация вирусов</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/5/1/3.html">Алгоритмы вирусов</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/5/1/4.html">Признаки проявления вируса</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="/5/2/index.html">Методы защиты. Антивирусы</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/5/2/1.html">Классы антивирусных программ</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="/5/3/1.html">Некоторые примеры антивирусных программ</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/5/3/1.html">Программа-полифаг Aidstest</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/5/3/1.html">Антивирус Касперского 7.0</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/5/3/3.html">Антивирус-ревизор диска ADinf для Windows</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/5/3/4.html">Антивирусная программа Dr. Web</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/5/3/5.html">AntiVirus</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="/5/4/index.html">Контрольные вопросы</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="/6/1/index.html">Проблемы защиты информации в сетях эвм</a>
+          <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+          <ul class="nav-aside__list">
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="/6/1/index.html">Сети ЭВМ — построение и использование</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/6/1/1.html">Элементы сетей</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/6/1/2.html">Сетевые операционные системы (ОС)</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/6/1/3.html">Межсетевое взаимодействие</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/6/1/4.html">Прикладное программное обеспечение в ЛВС</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="/6/2/1.html">Цели, функции и задачи защиты информации в сетях ЭВМ</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/6/2/1.html">Цели защиты информации в сетях ЭВМ</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/6/2/2.html">Особенности защиты информации в вычислительных сетях</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/6/2/3.html">Понятие сервисов безопасности</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/6/2/4.html">Международные стандарты</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="/6/3/index.html">Архитектура механизмов защиты информации в сетях ЭВМ</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/6/3/1.html">Услуги механизмов защиты</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/6/3/2.html">Методы цифровой подписи данных, передаваемых в сети</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/6/3/3.html">Пример системы защиты локальной вычислительной сети</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/6/3/4.html">Межсетевые экраны — брандмауэры (FireWall)</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/6/3/5.html">Прокси - (Proxy) серверы</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/6/3/6.html">Примеры систем активного аудита</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="/6/4/index.html">Контрольные вопросы</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="/7/1/1.html">Технические средства и комплексное обеспечение
+            безопасности</a>
+          <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+          <ul class="nav-aside__list">
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="/7/1/1.html">Технические средства защиты</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/7/1/1.html">Классы ТСЗ</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/7/1/2.html">Типы систем защиты</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/7/1/3.html">Системы опознавания</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/7/1/4.html">Оборонительные системы</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/7/1/5.html">Охранное освещение</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/7/1/6.html">Средства контроля доступа</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/7/1/7.html">Центральный пост и персонал охраны</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="/7/2/index.html">Комплексный подход к обеспечению безопасности</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/7/2/1.html">Комплекс физической защиты</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/7/2/2.html">Некоторые образцы технических средств обеспечения
+                    информационной и общей безопасности</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="/7/2/3.html">Средства обнаружения/подавления</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="/7/3/index.html">Контрольные вопросы</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="/8/index.html">Заключение</a>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="/9/index.html">Список литературы</a>
+        </li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main class="main page__main">
+    <header class="main__header">
+      <h1 class="main__header-title">Основные предметные направления ЗИ</h1>
+    </header>
+    <div class="main__content">
+      <div class="main__content-inner">
+        <h2>Основные предметные направления ЗИ</h2>
+        <p>Основные предметные направления ЗИ — охрана государственной, коммерческой, служебной, банковской тайн,
+          персональных данных и интеллектуальной собственности.</p>
+        <p><i>Государственная тайна —</i> защищаемые государством сведения в области его военной, внешнеполитической,
+          экономической, разведывательной, контрразведывательной и оперативно-розыскной деятельности, распространение
+          которых может нанести ущерб безопасности Российской Федерации.</p>
+        <p>Сведения могут считаться государственной тайной (могут быть засекречены), если они отвечают следующим
+          требованиям:</p>
+        <ul>
+          <li>соответствуют перечню сведений, составляющих государственную тайну, не входят в перечень сведений, не
+            подлежащих засекречиванию, и отвечают законодательству РФ о государственной тайне (принцип законности);</li>
+          <li>целесообразность засекречивания конкретных сведений установлена путем экспертной оценки вероятных
+            экономических и иных последствий, возможности нанесения ущерба безопасности РФ, исходя из баланса жизненно
+            важных интересов государства, общества и личности (принцип обоснованности);</li>
+          <li>ограничения на распространение этих сведений и на доступ к ним установлены с момента их получения
+            (разработки) или заблаговременно (принцип своевременности);</li>
+          <li>компетентные органы и их должностные лица приняли в отношении конкретных сведений решение об отнесении
+            их к государственной тайне и засекречивании и установили в отношении них соответствующий режим правовой
+            охраны и защиты (принцип обязательной защиты).</li>
+        </ul>
+        <p><i>Коммерческая тайна</i> исстари охранялась при содействии государства. Примером этого утверждения могут
+          служить многочисленные факты ограничения доступа иностранцев в страну (в Китае — для защиты секретов
+          производства фарфора), в отдельные отрасли экономики или на конкретные производства. В России к коммерческой
+          тайне относили промысловую тайну, но затем она была ликвидирована как правовой институт в начале 30-х годов и
+          в связи с огосударствлением отраслей экономики защищалась как государственная и служебная тайна. Сейчас
+          начался обратный процесс.</p>
+        <p>Информация может составлять коммерческую тайну, если она отвечает следующим требованиям (критерии правовой
+          охраны):</p>
+        <ul>
+          <li>имеет действительную или потенциальную коммерческую ценность в силу ее неизвестности третьим лицам;</li>
+          <li>не подпадает под перечень сведений, доступ к которым не может быть ограничен, и перечень сведений,
+            отнесенных к государственной тайне;</li>
+          <li>к ней нет свободного доступа на законном основании;</li>
+          <li>обладатель информации принимает меры к охране ее конфиденциальности.</li>
+        </ul>
+
+        <p>К коммерческой тайне не может быть отнесена информация:</p>
+        <ul>
+          <li>содержащаяся в учредительных документах;</li>
+          <li>содержащаяся в документах, дающих право заниматься предпринимательской деятельностью (регистрационные
+            удостоверения, лицензии и т. д.);</li>
+          <li>содержащаяся в годовых отчетах, бухгалтерских балансах, формах государственных статистических наблюдений
+            и других формах годовой бухгалтерской отчетности, включая аудиторские заключения, а также в иных, связанных
+            с исчислением и уплатой налогов и других обязательных платежей;</li>
+          <li>содержащая сведения об оплачиваемой деятельности государственных служащих, о задолженностях
+            работодателей по выплате заработной платы и другим выплатам социального характера, о численности и кадровом
+            составе работающих;</li>
+          <li>содержащаяся в годовых отчетах фондов об использовании имущества;</li>
+          <li>подлежащая раскрытию эмитентом ценных бумаг, профессиональным участником рынка ценных бумаг и владельцем
+            ценных бумаг в соответствии с законодательством Российской Федерации о ценных бумагах;</li>
+          <li>связанная с соблюдением экологического и антимонопольного законодательства, обеспечением безопасных
+            условий труда, реализацией продукции, причиняющей вред здоровью населения, другими нарушениями
+            законодательства Российской Федерации, законодательства субъектов Российской Федерации, а также содержащая
+            данные о размерах причиненных при этом убытков;</li>
+          <li>о деятельности благотворительных организаций и иных некоммерческих организаций, не связанной с
+            предпринимательской деятельностью;</li>
+          <li>о наличии свободных рабочих мест;</li>
+          <li>о хранении, использовании или перемещении материалов и использовании технологий, представляющих
+            опасность для жизни и здоровья граждан или окружающей среды;</li>
+          <li>о реализации государственной программы приватизации и об условиях приватизации конкретных объектов;</li>
+          <li>о размерах имущества и вложенных средствах при приватизации;</li>
+          <li>о ликвидации юридического лица и о порядке и сроке подачи заявлений или требований его кредиторами;</li>
+        </ul>
+
+        <p>для которой определены ограничения по установлению режима коммерческой тайны в соответствии с федеральными
+          законами и принятыми в целях их реализации подзаконными актами.</p>
+        <p>Основными субъектами права на коммерческую тайну являются обладатели коммерческой тайны, их правопреемники.
+        </p>
+        <p>Обладатели коммерческой тайны — физические (независимо от гражданства) и юридические (коммерческие и
+          некоммерческие организации) лица, занимающиеся предпринимательской деятельностью и имеющие монопольное право
+          на информацию, составляющую для них коммерческую тайну.</p>
+        <p>При этом под предпринимательством понимается «самостоятельная, осуществляемая на свой риск деятельность,
+          направленная на систематическое получение прибыли от пользования имуществом, продажи товаров, выполнения работ
+          или оказания услуг лицами, зарегистрированными в этом качестве в установленном законом порядке» (статья 2
+          Гражданского кодекса Российской Федерации).</p>
+        <p><i>Правопреемники —</i> физические и юридические лица, которым в силу служебного положения, по договору или
+          на ином законном основании (в том числе по наследству) известна информация, составляющая коммерческую тайну
+          другого лица.</p>
+        <p><i>Банковская тайна</i> — защищаемые банками и иными кредитными организациями сведения о банковских операциях
+          по счетам и сделкам в интересах клиентов, счетах и вкладах своих клиентов и корреспондентов, а также сведения
+          о клиентах и корреспондентах, разглашение которых может нарушить право последних на неприкосновенность частной
+          жизни.</p>
+        <p><i>К основным объектам банковской тайны относятся следующие:</i></p>
+        <ol>
+          <li>Тайна банковского счета — сведения о счетах клиентов и корреспондентов и действиях с ними в кредитной
+            организации (о расчетном, текущем, бюджетном, депозитном, валютном, корреспондентском и тому подобных
+            счетах, об открытии, закрытии, переводе, переоформлении счетов и т. д.).</li>
+          <li>Тайна операций по банковскому счету — сведения о принятии и зачислении поступающих на счет клиента
+            денежных средств, о выполнении его распоряжений по перечислению и выдаче соответствующих сумм со счета, а
+            также проведении других операций и сделок по банковскому счету, предусмотренных договором банковского счета
+            или законом.</li>
+          <li>Тайна банковского вклада — сведения обо всех видах вкладов клиента в кредитной организации.</li>
+          <li>Тайна частной жизни клиента или корреспондента — сведения, составляющие личную, семейную тайну и
+            охраняемые законом как персональные данные этого клиента или корреспондента.</li>
+        </ol>
+        <p><i>Профессиональная тайна</i> — защищаемая по закону информация, доверенная или ставшая известной лицу
+          (держателю) исключительно в силу исполнения им своих профессиональных обязанностей, не связанных с
+          государственной или муниципальной службой, распространение которой может нанести ущерб правам и законным
+          интересам другого лица (доверителя), доверившего эти сведения, и не являющаяся государственной или
+          коммерческой тайной.</p>
+        <p>Информация может считаться профессиональной тайной, если она отвечает следующим требованиям (критериям
+          охраноспособности права):</p>
+        <ul>
+          <li>доверена или стала известна лицу лишь в силу исполнения им своих профессиональных обязанностей;</li>
+          <li>лицо, которому доверена информация, не состоит на государственной или муниципальной службе (в противном
+            случае информация считается служебной тайной);</li>
+          <li>запрет на распространение доверенной или ставшей известной информации, которое может нанести ущерб
+            правам и законным интересам доверителя, установлен федеральным законом;</li>
+          <li>информация не относится к сведениям, составляющим государственную и коммерческую тайну.</li>
+        </ul>
+        <p>В соответствии с этими критериями можно выделить следующие объекты профессиональной тайны:</p>
+        <p><i>Врачебная тайна —</i> информация, содержащая:</p>
+        <ul>
+          <li>результаты обследования лица, вступающего в брак;</li>
+          <li>сведения о факте обращения за медицинской помощью, о состоянии здоровья, диагнозе заболевания и иные
+            сведения, полученные при обследовании и лечении гражданина;</li>
+          <li>сведения о проведенных искусственном оплодотворении и имплантации эмбриона, а также о личности донора;
+          </li>
+          <li>сведения о доноре и реципиенте при трансплантации органов и (или) тканей человека;</li>
+        </ul>
+
+        <ul>
+          <li>сведения о наличии психического расстройства, фактах обращения за психиатрической помощью и лечении в
+            учреждении, оказывающем такую помощь, а также иные сведения о состоянии психического здоровья гражданина;
+          </li>
+          <li>иные сведения в медицинских документах гражданина.</li>
+        </ul>
+        <p><i>Тайна связи —</i> тайна переписки, телефонных переговоров, почтовых, телеграфных и иных сообщений.</p>
+        <p><i>Нотариальная тайна —</i> сведения, доверенные нотариусу в связи с совершением нотариальных действий.</p>
+        <p><i>Адвокатская тайна —</i> сведения, сообщенные адвокату гражданином в связи с оказанием ему юридической
+          помощи.</p>
+        <p><i>Тайна усыновления —</i> сведения об усыновлении ребенка, доверенные на законном основании иным лицам,
+          кроме судей, вынесших решение об усыновлении, и должностных лиц, осуществляющих государственную регистрацию
+          этого усыновления.</p>
+        <p><i>Тайна страхования —</i> сведения о страхователе, застрахованном лице и выгодоприобретателе, состоянии их
+          здоровья, а также об имущественном положении этих лиц, полученные страховщиком в результате своей
+          профессиональной деятельности.</p>
+        <p><i>Тайна исповеди —</i> сведения, доверенные гражданином священнослужителю на исповеди.</p>
+        <p><i>Служебная тайна</i> — защищаемая по закону конфиденциальная информация, ставшая известной в
+          государственных органах и органах местного самоуправления только на законных основаниях и в силу исполнения их
+          представителями служебных обязанностей, а также служебная информация о деятельности государственных органов,
+          доступ к которой ограничен федеральным законом или в силу служебной необходимости.</p>
+        <p>Служебная тайна является видом конфиденциальной информации, и право на служебную тайну выступает
+          самостоятельным объектом права. Для осуществления ее правовой охраны и защиты необходим специальный
+          Федеральный закон «О служебной тайне».</p>
+        <p>Информация может считаться служебной тайной, если она отвечает следующим требованиям (критериям
+          охраноспособности права):</p>
+        <p>отнесена федеральным законом к служебной информации о деятельности государственных органов, доступ к
+          которой ограничен по закону или в силу служебной необходимости (собственная служебная тайна);</p>
+        <ul>
+          <li>является охраноспособной конфиденциальной информацией («чужой тайной») другого лица (коммерческая тайна,
+            банковская тайна, тайна частной жизни, профессиональная тайна);</li>
+          <li>не является государственной тайной и не подпадает под перечень сведений, доступ к которым не может быть
+            ограничен;</li>
+          <li>получена представителем государственного органа и органа местного самоуправления только в силу
+            исполнения обязанностей по службе в случаях и порядке, установленных федеральным законом.</li>
+        </ul>
+        <p>Информация, не отвечающая этим требованиям, не может считаться служебной тайной и не подлежит правовой
+          охране. В действующем законодательстве приводится перечень сведений, которые не могут быть отнесены к
+          служебной информации ограниченного распространения:</p>
+        <ul>
+          <li>акты законодательства, устанавливающие правовой статус государственных органов, организаций,
+            общественных объединений, а также права, свободы и обязанности граждан, порядок их реализации;</li>
+          <li>сведения о чрезвычайных ситуациях, опасных природных явлениях и процессах, экологическая,
+            гидрометеорологическая, гидрогеологическая, демографическая, санитарно- эпидемиологическая и другая
+            информация, необходимая для обеспечения безопасного существования населенных пунктов, граждан и населения в
+            целом, а также производственных объектов;</li>
+          <li>описание структуры органа исполнительной власти, его функций, направлений и форм деятельности, а также
+            его адрес;</li>
+          <li>порядок рассмотрения и разрешения заявлений, в том числе юридических лиц, рассмотренных в установленном
+            порядке;</li>
+          <li>сведения об исполнении бюджета и использовании других государственных ресурсов, о состоянии экономики и
+            потребностей населения;</li>
+          <li>документы, накапливаемые в открытых фондах библиотек и архивов, информационных системах организаций,
+            необходимые для реализации прав, свобод и обязанностей граждан.</li>
+        </ul>
+
+        <p>Таким образом, к основным объектам служебной тайны можно отнести такие виды информации, как:</p>
+        <ol>
+          <li>служебная информация о деятельности федеральных государственных органов, доступ к которой ограничен
+            федеральным законом в целях защиты государственных интересов: военная тайна; тайна следствия (данные
+            предварительного расследования либо следствия); судебная тайна (тайна совещания судей, содержание дискуссий
+            и результатов голосования закрытого совещания Конституционного суда Российской Федерации, материалы
+            закрытого судебного заседания, тайна совещания присяжных заседателей или в силу служебной необходимости,
+            порядок выработки и принятия решения, организация внутренней работы и т. д.);</li>
+          <li>охраноспособная конфиденциальная информация, ставшая известной в силу исполнения служебных обязанностей
+            должностным лицам государственных органов и органов местного самоуправления: коммерческая тайна, банковская
+            тайна, профессиональная тайна, а также конфиденциальная информация о частной жизни лица.</li>
+        </ol>
+        <p>Особенность правоотношений в этой области состоит в том, что если во втором случае государственные органы и
+          их должностные лица обязаны обеспечить (гарантировать) сохранность «чужой» тайны, ставшей известной им по
+          службе, в объеме сведений, переданных ее владельцем, то в первом случае они самостоятельно в соответствии с
+          законом определяют объем своей служебной тайны и режим ее защиты.</p>
+        <p><i>Охрана персональных данных.</i> В Европе для охраны и защиты права на неприкосновенность частной жизни в
+          условиях автоматизированной обработки личных данных о гражданах более 25 лет назад был введен особый институт
+          правовой охраны личности — институт защиты персональных данных. Более чем в 20 европейских государствах
+          приняты национальные законы о персональных данных, в ряде стран введены независимые уполномоченные по защите
+          персональных данных, во всех странах Европейского Союза с 1998 г. создана единая унифицированная система
+          защиты персональных данных, в том числе в секторе телекоммуникаций.</p>
+        <p>Федеральный закон «Об информации, информатизации и защите информации» вводит понятие «персональные
+          данные» (статья 2); относит персональные данные к конфиденциальной информации и устанавливает, что перечни
+          персональных данных должны быть закреплены федеральным законом (статья 11); требует, чтобы деятельность
+          негосударственных организаций и частных лиц по обработке и предоставлению персональных данных, равно как и по
+          проектированию, производству средств защиты информации и обработки персональных данных, обязательно
+          лицензировалась в порядке, установленном Правительством Российской Федерации (статьи 11, 19); декларирует, что
+          персональные данные должны защищаться, а режим защиты в отношении персональных данных устанавливается
+          федеральным законом (статья 21). Кодекс РФ об административных правонарушениях в статье 13.11 устанавливает
+          ответственность за нарушение порядка сбора, хранения и распространение информации о гражданах.</p>
+        <p>Объектом правоотношений здесь выступает право на персональные данные — информация (зафиксированная на любом
+          материальном носителе) о конкретном человеке, которая отождествлена или может быть отождествлена с ним.</p>
+        <p>К персональным данным могут быть отнесены сведения, использование которых без согласия субъекта персональных
+          данных может нанести вред его чести, достоинству, деловой репутации, доброму имени, иным нематериальным благам
+          и имущественным интересам:</p>
+        <ul>
+          <li>биографические и опознавательные данные (в том числе об обстоятельствах рождения, усыновления, развода);
+          </li>
+          <li>личные характеристики (в том числе о личных привычках и наклонностях);</li>
+          <li>сведения о семейном положении (в том числе о семейных отношениях);</li>
+          <li>сведения об имущественном, финансовом положении (кроме случаев, прямо установленных в законе);</li>
+          <li>о состоянии здоровья.</li>
+        </ul>
+        <p>Субъектами права здесь выступают:</p>
+        <ul>
+          <li>субъекты персональных данных — лица, к которым относятся соответствующие данные, и их наследники;</li>
+          <li>держатели персональных данных — органы государственной власти и органы местного самоуправления,
+            юридические и физические лица, осуществляющие на законных основаниях сбор, хранение, передачу, уточнение,
+            блокирование, обезличивание, уничтожение персональных данных (баз персональных данных).</li>
+        </ul>
+
+        <p>Персональные данные и работа с ними должны соответствовать следующим требованиям:</p>
+        <ol>
+          <li>Персональные данные должны быть получены и обработаны законным образом на основании действующего
+            законодательства.</li>
+          <li>Персональные данные включаются в базы персональных данных на основании свободного согласия субъекта,
+            выраженного в письменной форме, за исключением случаев, прямо установленных в законе.</li>
+          <li>Персональные данные должны накапливаться для точно определенных и законных целей, не использоваться в
+            противоречии с этими целями и не быть избыточными по отношению к ним. Не допускается объединение баз
+            персональных данных, собранных держателями в разных целях, для автоматизированной обработки информации.</li>
+          <li>Персональные данные, предоставляемые держателем, должны быть точными и в случае необходимости
+            обновляться.</li>
+          <li>Персональные данные должны храниться не дольше, чем этого требует цель, для которой они накапливаются,
+            и подлежать уничтожению по достижении этой цели или по миновании надобности.</li>
+          <li>Персональные данные охраняются в режиме конфиденциальной информации, исключающем их случайное или
+            несанкционированное разрушение или случайную их утрату, а равно несанкционированный доступ к данным, их
+            изменение, блокирование или передачу.</li>
+          <li>Для лиц, занимающих высшие государственные должности, и кандидатов на эти должности может быть
+            установлен специальный правовой режим для их персональных данных, обеспечивающий открытость только
+            общественно значимых данных.</li>
+        </ol>
+        <p><i>Охрана интеллектуальной собственности.</i> К числу основных объектов интеллектуальной собственности
+          отнесены:</p>
+        <ul>
+          <li>произведения науки, литературы и искусства;</li>
+          <li>результаты исполнительской деятельности артистов, режиссеров, дирижеров;</li>
+          <li>сложные результаты творчества;</li>
+          <li>звукозаписи и записи изображения;</li>
+          <li>передача радио- и телевизионных сигналов;</li>
+          <li>изобретения;</li>
+          <li>полезные модели;</li>
+          <li>промышленные образцы;</li>
+        </ul>
+
+        <ul>
+          <li>профессиональные секреты (ноу-хау);</li>
+          <li>селекционные достижения;</li>
+          <li>фирменные наименования и коммерческие обозначения правообладателя;</li>
+          <li>товарные знаки и знаки обслуживания;</li>
+          <li>наименования мест происхождения товаров;</li>
+          <li>другие результаты интеллектуальной деятельности и средства индивидуализации, на которые в соответствии с
+            законом могут признаваться или закрепляться исключительные права.</li>
+        </ul>
+
+      </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <p class="footer__copy">© 2021 ГПОУ ТО "Донской колледж информационных технологий" Майорова&nbsp;Дарья
+        4&nbsp;&#8209;П&nbsp;&#8209;1</p>
+    </div>
+  </footer>
+  <script src="/core.js"></script>
+</body>
+
+</html>

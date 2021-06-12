@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Учебное пособие по дисциплине "Информационная безопасность"</title>
+  <link rel="shortcut icon" href="../../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../../core.css">
+</head>
+
+<body class="page__body">
+  <header class="header page__header">
+    <div class="header__container">
+      <img class="logo header__logo" src="../../img/logo.png" alt="логотип">
+
+      <button class="burger header__burger" type="button" aria-label="меню">
+        <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-width="2" d="M2 2h18v18H2z"></path>
+          <path d="M6 7h10.096M6 11h10.096M6 15h6" stroke-width="2" stroke-linecap="square"></path>
+        </svg>
+      </button>
+
+      <nav class="nav header__nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="../../index.html">Главная</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="../../1.html">Содержание</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="../../2.html">Пройти тестирование</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <aside class="aside page__aside">
+    <nav class="nav-aside aside__nav">
+      <ul class="nav-aside__list">
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="../../1/1/index.html">Общие проблемы безопасности. Роль и место информационной
+            безопасности</a>
+          <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+          <ul class="nav-aside__list">
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../1/1/index.html">Национальные интересы и безопасность</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/1/1.html">История вопроса</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/1/2.html">Национальные интересы и безопасность России</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/1/3.html">Национальная безопасность, ее определения</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/1/4.html">Уровни обеспечения национальной безопасности</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/1/5.html">Основные угрозы безопасности России</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../1/2/index.html">Информационная безопасность</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/2/1.html">Информационная война</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/2/2.html">Информационное превосходство в обычных и информационных
+                    войнах</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/2/3.html">Информационное оружие</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/2/4.html">Принципы, основные задачи и функции обеспечения
+                    информационной безопасности</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/2/5.html">Отечественные и зарубежные стандарты в области
+                    информационной безопасности</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../1/3/index.html">Защита информации (ЗИ)</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/3/1.html">Основные предметные направления ЗИ</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/3/2.html">Правовые основы защиты информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/3/3.html">Уровни доступа к информации с точки зрения
+                    законодательства</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../1/3/4.html">Ответственность за нарушение законодательства в
+                    информационной сфере</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../1/4/index.html">Контрольные вопросы</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="../../2/1/1.html">Защита информации в автоматизированных системах обработки
+            данных</a>
+          <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+          <ul class="nav-aside__list">
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../2/1/1.html">Предмет и объекты защиты информации в автоматизированных
+                системах
+                обработки данных (АСОД)</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/1/1.html">Надежность информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/1/2.html">Уязвимость информации</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../2/2/index.html">Элементы и объекты защиты в АСОД</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/2/1.html">Дестабилизирующие факторы АСОД</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/2/2.html">Преднамеренные угрозы безопасности АСОД</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../2/3/index.html">Функции и задачи защиты информации</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/3/1.html">Функции непосредственной защиты информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/3/2.html">Обнаружение проявившихся дестабилизирующих факторов</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/3/3.html">Механизмы защиты</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/3/4.html">Управление механизмами защиты</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../2/4/index.html">Методы и системы защиты информации</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/4/1.html">Подтверждение подлинности пользователей и разграничение
+                    их доступа к компьютерным ресурсам</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/4/2.html">Общие сведения о контроле информационной целостности</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/4/3.html">Способы определения модификаций информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../2/4/4.html">Контроль правильности функционирования системы
+                    защиты</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../2/5/index.html">Контрольные вопросы</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="../../3/index.html">Криптографические методы защиты информации</a>
+          <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+          <ul class="nav-aside__list">
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../3/1/index.html">Криптология и основные этапы ее развития</a>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../3/2/index.html">Методы криптографического преобразования данных</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../3/2/1.html">Кодирование</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../3/2/2.html">Другие виды криптографического закрытия информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../3/2/3.html">Системы с открытым ключом</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../3/2/4.html">Электронная цифровая подпись</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../3/2/5.html">Криптографические стандарты DES и ГОСТ28147—89</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../3/3/index.html">Проблемы реализации методов криптографической защиты в
+                АСОД</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../3/3/1.html">Технические средства криптографии</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../3/3/2.html">Программные средства</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../3/3/3.html">Проблема управления ключами</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../3/3/4.html">Характеристики криптографических средств защиты</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../3/4/index.html">Контрольные вопросы</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="../../4/1/index.html">Защита информации в персональных компьютерах</a>
+          <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+          <ul class="nav-aside__list">
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../4/1/index.html">Особенности защиты информации в персональных ЭВМ</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/1/1.html">Угрозы информации в персональных ЭВМ</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/1/2.html">Цели защиты</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../4/2/index.html">Защита ПК от несанкционированного доступа</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/2/1.html">Физическая защита ПК и носителей информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/2/2.html">Опознавание (аутентификация) пользователей и
+                    используемых компонентов обработки информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/2/3.html">Разграничение доступа к элементам защищаемой
+                    информации</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/2/4.html">Криптографическое закрытие защищаемой информации,
+                    хранимой на носителях (архивация данных)</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/2/5.html">Регистрация всех обращений к защищаемой информации и
+                    исключение несанкционированного доступа</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/2/6.html">Защита от несанкционированного доступа к компьютеру при
+                    его оставлении без завершения сеанса работы</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../4/3/index.html">Вредоносные закладки в ПК и борьба с ними</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/3/1.html">Классификация закладок и их общие характеристики</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/3/2.html">Средства вторжения в частную жизнь</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/3/3.html">Компьютерные наблюдения</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/3/4.html">Компьютерный червь</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/3/5.html">Троянские программы</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/3/6.html">Прочие вредоносные программы</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/3/7.html">Факторы уязвимости систем для вредоносных программ</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/3/8.html">Проникновение шпионских программ</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../4/3/9.html">Aware и ряд других средств обеспечения безопасности
+                    ПК</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../4/4/index.html">Контрольные вопросы</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="../../5/1/1.html">Компьютерные вирусы и антивирусные программы</a>
+          <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+          <ul class="nav-aside__list">
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../5/1/1.html">Компьютерный вирус</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../5/1/1.html">История вопроса</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../5/1/2.html">Классификация вирусов</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../5/1/3.html">Алгоритмы вирусов</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../5/1/4.html">Признаки проявления вируса</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../5/2/index.html">Методы защиты. Антивирусы</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../5/2/1.html">Классы антивирусных программ</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../5/3/1.html">Некоторые примеры антивирусных программ</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../5/3/1.html">Программа-полифаг Aidstest</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../5/3/1.html">Антивирус Касперского 7.0</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../5/3/3.html">Антивирус-ревизор диска ADinf для Windows</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../5/3/4.html">Антивирусная программа Dr. Web</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../5/3/5.html">AntiVirus</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../5/4/index.html">Контрольные вопросы</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="../../6/1/index.html">Проблемы защиты информации в сетях эвм</a>
+          <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+          <ul class="nav-aside__list">
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../6/1/index.html">Сети ЭВМ — построение и использование</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/1/1.html">Элементы сетей</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/1/2.html">Сетевые операционные системы (ОС)</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/1/3.html">Межсетевое взаимодействие</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/1/4.html">Прикладное программное обеспечение в ЛВС</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../6/2/1.html">Цели, функции и задачи защиты информации в сетях ЭВМ</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/2/1.html">Цели защиты информации в сетях ЭВМ</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/2/2.html">Особенности защиты информации в вычислительных сетях</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/2/3.html">Понятие сервисов безопасности</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/2/4.html">Международные стандарты</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../6/3/index.html">Архитектура механизмов защиты информации в сетях ЭВМ</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/3/1.html">Услуги механизмов защиты</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/3/2.html">Методы цифровой подписи данных, передаваемых в сети</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/3/3.html">Пример системы защиты локальной вычислительной сети</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/3/4.html">Межсетевые экраны — брандмауэры (FireWall)</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/3/5.html">Прокси - (Proxy) серверы</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../6/3/6.html">Примеры систем активного аудита</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../6/4/index.html">Контрольные вопросы</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="../../7/1/1.html">Технические средства и комплексное обеспечение
+            безопасности</a>
+          <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+          <ul class="nav-aside__list">
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../7/1/1.html">Технические средства защиты</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../7/1/1.html">Классы ТСЗ</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../7/1/2.html">Типы систем защиты</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../7/1/3.html">Системы опознавания</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../7/1/4.html">Оборонительные системы</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../7/1/5.html">Охранное освещение</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../7/1/6.html">Средства контроля доступа</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../7/1/7.html">Центральный пост и персонал охраны</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../7/2/index.html">Комплексный подход к обеспечению безопасности</a>
+              <button class="nav-aside__button" type="button" aria-label="подменю"></button>
+              <ul class="nav-aside__list nav-aside__list--submenu">
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../7/2/1.html">Комплекс физической защиты</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../7/2/2.html">Некоторые образцы технических средств обеспечения
+                    информационной и общей безопасности</a>
+                </li>
+                <li class="nav-aside__item">
+                  <a class="nav-aside__link" href="../../7/2/3.html">Средства обнаружения/подавления</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-aside__item">
+              <a class="nav-aside__link" href="../../7/3/index.html">Контрольные вопросы</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="../../8/index.html">Заключение</a>
+        </li>
+        <li class="nav-aside__item">
+          <a class="nav-aside__link" href="../../9/index.html">Список литературы</a>
+        </li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main class="main page__main">
+    <header class="main__header">
+      <h1 class="main__header-title">Классификация вирусов</h1>
+    </header>
+    <div class="main__content">
+      <div class="main__content-inner">
+        <h2>Классификация вирусов</h2>
+        <p>Один из авторитетнейших «вирусологов» страны Евгений Касперский предлагает условно классифицировать вирусы по
+          следующим признакам:</p>
+        <ul>
+          <li>по среде обитания вируса;</li>
+          <li>по способу заражения среды обитания;</li>
+          <li>по деструктивным возможностям;</li>
+          <li>по особенностям алгоритма вируса.</li>
+        </ul>
+        <p>Более подробная классификация внутри этих групп представлена в табл. 5.1.</p>
+        <p>Рассмотрим более подробно некоторые из этих типов вирусов.</p>
+        <p><i>Загрузочные вирусы.</i> Известные на сегодня загрузочные вирусы заражают загрузочный (boot) сектор гибкого
+          диска и boot- сектор или главную загрузочную запись (Master Boot Record — MBR) НЖМД. Принцип действия
+          загрузочных вирусов основан на алгоритмах запуска операционной системы при включении или перезагрузке
+          компьютера — после необходимых тестов установленного оборудования (памяти, дисков и т. д.) программа системной
+          загрузки считывает первый физический сектор загрузочного диска (а:, с: или CD-ROM в зависимости от установок
+          BIOS) и передает на него управление.</p>
+        <p>При заражении дисков загрузочные вирусы «подставляют» свой код вместо какой-либо программы, получающей
+          управление при загрузке системы. Принцип заражения, таким образом, таков: вирус «заставляет» систему при
+          перезапуске отдать управление не оригинальному коду загрузчика, а коду вируса.</p>
+        <p>Заражение дискет производится единственным известным способом: вирус записывает свой код вместо оригинального
+          кода</p>
+        <p><i>Таблица 5.1.</i> Основные классы вирусов</p>
+        <table border="1">
+          <tr>
+            <td>
+              <p>Признак</p>
+            </td>
+            <td>
+              <p>Тип вируса</p>
+            </td>
+            <td>
+              <p>Пояснения</p>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="4">
+              <p><b>Среда обитания</b></p>
+            </td>
+            <td>
+              <p>Сетевые</p>
+            </td>
+            <td>
+              <p>Распространяются по компьютерной сети</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Файловые</p>
+            </td>
+            <td>
+              <p>Внедряются в выполняемые файлы</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Загрузочные</p>
+            </td>
+            <td>
+              <p>Внедряются в загрузочный сектор диска (Boot-сектор) или в сектор, содержащий системный загрузчик
+                винчестера (Master Boot Record)</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Комбинированные</p>
+            </td>
+            <td>
+              <p>Например, файлово-загрузочные вирусы, заражающие как файлы, так и загрузочные секторы дисков. Такие
+                вирусы, как правило, имеют довольно сложный алгоритм работы и часто применяют оригинальные методы
+                проникновения в систему</p>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="2">
+              <p><b>Способы</b></p>
+              <p><b>заражения</b></p>
+            </td>
+            <td>
+              <p>Резидентные</p>
+            </td>
+            <td>
+              <p>При инфицировании компьютера оставляют в оперативной памяти свою резидентную часть, которая затем
+                перехватывает обращение операционной системы к объектам заражения, и внедряется в них. Резидентные
+                вирусы находятся в памяти и являются активными вплоть до выключения или перезагрузки компьютера</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Нерезидентные</p>
+            </td>
+            <td>
+              <p>Не заражают память компьютера и являются активными ограниченное время. Некоторые вирусы оставляют в
+                оперативной памяти небольшие резидентные программы, которые не распространяют вирус. Такие вирусы
+                считаются нерезидентными</p>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="4">
+              <p><b>Деструктивнные</b></p>
+              <p><b>возможности</b></p>
+            </td>
+            <td>
+              <p>Безвредные</p>
+            </td>
+            <td>
+              <p>Не влияющие на работу компьютера (кроме уменьшения свободной памяти на диске в результате своего
+                распространения)</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Неопасные</p>
+            </td>
+            <td>
+              <p>Влияние ограничивается уменьшением свободной памяти на диске и графическими, звуковыми и пр. эффектами
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Опасные</p>
+            </td>
+            <td>
+              <p>Могут привести к серьезным сбоям в работе</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Очень опасные</p>
+            </td>
+            <td>
+              <p>Могут привести к потере программ, уничтожить данные, стереть необходимую для работы компьютера
+                информацию, записанную в системных областях памяти</p>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="7">
+              <p><b>Особенности алгоритма</b></p>
+            </td>
+            <td>
+              <p>Компаньон- вирусы (companion)</p>
+            </td>
+            <td>
+              <p>Вирусы, не изменяющие файлы. Алгоритм работы этих вирусов состоит в том, что они создают для ехе-файлов
+                файлы-спутники, имеющие то же самое имя, но с расширением . сот, например, для файла хсору. ехе
+                создается файл хсору. сот. Вирус записывается в com-файл и никак не изменяет ехе-файл. При запуске
+                такого файла ОС первой обнаружит и выполнит com-файл, т. е. вирус, который затем запустит одноименный
+                ехе-файл</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>«Черви» (worm)</p>
+            </td>
+            <td>
+              <p>Распространяются в компьютерной сети и так же, как и компаньон-вирусы, не изменяют файлы или секторы на
+                дисках. Они проникают в память компьютера из компьютерной сети, вычисляют сетевые адреса других
+                компьютеров и рассылают по этим адресам свои копии. Такие вирусы иногда создают рабочие файлы на дисках
+                системы, но могут вообще не обращаться к ресурсам компьютера (за исключением оперативной памяти)</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>«Паразитические»</p>
+            </td>
+            <td>
+              <p>Вирусы, которые при распространении своих копий обязательно изменяют содержимое дисковых секторов или
+                файлов. К этой группе относятся все вирусы, которые не являются «червями» или «компаньонами»</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>«Студенческие»</p>
+            </td>
+            <td>
+              <p>Примитивные вирусы, часто нерезидентные и содержащие большое число ошибок</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>«Стелс»-вирусы (вирусы-невидимки, stealth)</p>
+            </td>
+            <td>
+              <p>Представляют собой весьма совершенные программы, которые перехватывают обращения ОС к пораженным файлам
+                или секторам дисков и «подставляют» вместо себя незараженные участки информации. Кроме этого, такие
+                вирусы при обращении к файлам используют достаточно оригинальные алгоритмы, позволяющие «обманывать»
+                резидентные антивирусные мониторы</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>«Полиморфик»-</p>
+              <p>вирусы</p>
+            </td>
+            <td>
+              <p>Самошифрующиеся, или вирусы-призраки (polymorphic), труднообнаруживаемые вирусы, не имеющие сигнатур,
+                т. е. не содержащие ни одного постоянного участка кода. В большинстве случаев два образца одного и того
+                же полиморфик-вируса не будут иметь ни одного совпадения. Это достигается шифрованием основного тела
+                вируса и модификациями программы-расшифровщика</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Макровирусы</p>
+            </td>
+            <td>
+              <p>Используют возможности макроязыков, встроенных в системы обработки данных (текстовые редакторы,
+                электронные таблицы и т. д.). Наиболее распространены макровирусы, заражающие текстовые документы
+                редактора Microsoft Word</p>
+            </td>
+          </tr>
+        </table>
+        <p>boot-сектора дискеты. НЖМД может заражаться тремя способами — вирус записывается либо вместо кода MBR, либо
+          вместо кода boot-сектора загрузочного диска (обычно диска с:), либо модифицирует адрес активного boot-сектора
+          в таблице разделов диска (Disk Partition Table), расположенной в MBR НЖМД.</p>
+        <p>При инфицировании диска вирус в большинстве случаев переносит оригинальный boot-сектор (или MBR) в другую
+          область диска (например, в первый свободный сектор). Если длина вируса больше длины сектора, то в заражаемый
+          сектор помещается начало кода вируса, остальные части размещаются в других секторах (например, в первых
+          незанятых).</p>
+        <p><i>Файловые вирусы.</i> По способу заражения файлов эти вирусы образуют следующие классы:</p>
+        <ul>
+          <li>перезаписывающие (overwriting);</li>
+          <li>паразитические (parasitic);</li>
+          <li>вирусы-компаньоны (companion);</li>
+          <li>вирусы-ссылки (link);</li>
+          <li>вирусы, заражающие документы.</li>
+        </ul>
+        <p><i>Перезаписывающие.</i> Данный метод заражения является наиболее простым, поскольку вирус записывает свой
+          код вместо кода заражаемого файла, уничтожая его содержимое. Естественно, что после этого файл не
+          восстанавливается. Такие вирусы очень быстро обнаруживают себя, поскольку могут возникнуть серьезные нарушения
+          в работе операционной системы и приложений.</p>
+        <p><i>Паразитические.</i> К этой группе относятся все файловые вирусы, которые при распространении своих копий
+          обязательно изменяют содержимое заражаемых файлов, оставляя сами файлы при этом полностью или частично
+          работоспособными. Основными типами таких вирусов являются вирусы, размещающиеся в начало (prepending), в конец
+          (appending) и в середину файла (inserting). В свою очередь, внедрение вирусов в середину файлов происходит
+          различными методами — путем переноса части файла в его конец или копирования вирусного кода в область заведомо
+          неиспользуемых данных файла (cavity-вирусы).</p>
+        <p><i>Внедрение вируса в начало файла.</i> Известны два способа внедрения паразитического файлового вируса в
+          начало файла. Первый заключается в том, что вирус переписывает начало заражаемого файла в его конец, а сам
+          помещается на освободившееся место. При заражении файла вторым способом вирус дописывает заражаемый файл к
+          своему телу. Таким образом, при запуске зараженного файла управление получает код вируса. При этом вирусы,
+          чтобы сохранить работоспособность программы, либо лечат зараженный файл, повторно запускают его, ждут
+          окончания его работы и снова размещаются в его начало (иногда для этого используется временный файл, в котором
+          сохраняется обезвреженный файл), либо восстанавливают код программы в памяти компьютера и настраивают
+          необходимые адреса в ее теле (т. е. выполняют функции ОС).</p>
+        <p><i>Внедрение вируса в конец файла.</i> Наиболее распространенным способом внедрения вируса в файл является
+          дописывание вируса в его конец. При этом вирус изменяет начало файла таким образом, что первыми выполняемыми
+          командами программы, содержащейся в файле, являются команды вируса. Для того чтобы получить управление при
+          старте файла, вирус корректирует стартовый адрес программы (адрес точки входа). Для этого вирус производит
+          необходимые изменения в заголовке файла.</p>
+        <p><i>Внедрение вируса в середину файла.</i> Существует несколько путей внедрения вируса в середину файла. В
+          наиболее простом случае вирус перемещает участок файла в его конец или «раздвигает» файл и записывает свой код
+          в освободившееся пространство. Некоторые вирусы при этом сжимают переносимый блок файла так, что длина файла
+          при заражении не изменяется. Вторым является метод «cavity», при котором вирус записывается в заведомо
+          неиспользуемые области файла. Вирус может быть скопирован в незадействованные области заголовка ехе-файла, в
+          промежутки между секциями ехе-файлов или в область текстовых сообщений популярных компиляторов. Существуют
+          вирусы, заражающие только те файлы, которые содержат блоки, заполненные каким-либо постоянным байтом, при этом
+          вирус записывает свой код вместо такого блока. Кроме того, копирование вируса в середину файла может произойти
+          в результате ошибки вируса, и в этом случае файл может быть необратимо испорчен.</p>
+        <p><i>Вирусы без точки входа.</i> Отдельно следует отметить довольно незначительную группу вирусов, не имеющих
+          «точки входа» (ЕРО-вирусы — Entry Point Obscuring viruses). К ним относятся вирусы, не изменяющие адрес точки
+          старта в заголовке ехе-фай- лов. Такие вирусы записывают команду перехода на свой код в какое-либо место файла
+          и получают управление не при запуске зараженного файла, а при вызове процедуры, содержащей код передачи
+          управления на тело вируса. Причем выполняться эта процедура может крайне редко (например, при выводе сообщения
+          о какой-либо специфической ошибке). В результате вирус может долгое время находиться внутри файла и проявить
+          себя только при некоторых ограниченных условиях. Перед тем как записать в середину файла команду перехода на
+          свой код, вирусу необходимо выбрать «правильный» адрес в файле — иначе зараженный файл может оказаться
+          испорченным. Известно несколько способов, с помощью которых вирусы определяют такие адреса внутри файлов,
+          например, поиск в файле последовательности стандартного кода заголовков процедур языков программирования
+          (C/Pascal), дизассемблирование кода файла или замена адресов импортируемых функций.</p>
+        <p><i>Компаньоны.</i> К этой группе относятся вирусы, не изменяющие заражаемых файлов, и алгоритм их работы
+          состоит в том, что для заражаемого файла создается файл-двойник, причем при запуске зараженного файла
+          управление получает именно этот двойник, т. е. вирус. При заражении вирус переименовывает файл, запоминает его
+          (для последующего запуска фай- ла-хозяина) и записывает свой код на диск под именем заражаемого файла.
+          Например, файл notepad.exe переименовывается в notepad.exd, а вирус записывается под именем notepad.exe. При
+          запуске управление получает код вируса, который затем запускает оригинальный notepad.</p>
+        <p>Возможно существование и других типов вирусов-компаньо- нов, использующих иные оригинальные идеи или
+          особенности других операционных систем. Например, path-компаньоны, которые размещают свои копии в корневом
+          каталоге Windows, используя тот факт, что этот каталог является первым в списке path, и файлы для запуска
+          Windows в первую очередь будут искать именно здесь. Данным способом самозапуска пользуются также многие
+          компьютерные черви и троянские программы.</p>
+        <p><i>Прочие способы заражения.</i> Существуют вирусы, которые не связывают свое присутствие с каким-либо
+          выполняемым файлом. При размножении они копируют свой код в какие-либо каталоги дисков в расчете на то, что
+          эти новые копии будут когда-либо запущены пользователем. Иногда эти вирусы дают своим копиям «специальные»
+          имена, чтобы подтолкнуть пользователя на их запуск — например, install.exe или winstart.bat.</p>
+        <p>Некоторые вирусы записывают свои копии в архивные файлы (arj, zip, гаг), а другие — команду запуска
+          зараженного файла в bat-файлы.</p>
+        <p>Link-вирусы также не изменяют физического содержимого файлов, однако при запуске зараженного файла принуждают
+          ОС выполнить вирусный код. Этой цели они достигают модификацией необходимых полей файловой системы.</p>
+        <p><i>Автономные (вирусы-программы).</i> Со временем вирусы, внедряющие свой код в тело других программ, сдали
+          свои позиции во многом по той причине, что размеры вирусов выросли, а укрыть код размером в сотни килобайт
+          довольно сложно. В итоге «исполняемые» вирусы перестали маскироваться и превратились в независимые программы,
+          не нуждающиеся в «хозяине-пере- носчике». Сразу же перед авторами вирусов возникла проблема: как заставить
+          пользователей загрузить этот вирус и запустить у себя на машине?</p>
+        <p>Программные вирусы, написанные для операционной системы Windows, обычно маскируются под разные утилиты —
+          например, под ключи к условно-бесплатных программам, мультимедийные презентации, обновления для операционной
+          системы или даже антивирусные программы. Большинство вирусов пользователи запускают на своем компьютере
+          самостоятельно.</p>
+        <p>Для борьбы с подобными вирусами одной антивирусной программы недостаточно и главным условием безопасности
+          является обязательная и регулярная загрузка обновлений к Windows (фай- лов-«заплаток», предназначенных для
+          закрытия уже обнаруженных брешей в системе защиты операционной системы).</p>
+        <p><i>Полиморфные вирусы</i> — вирусы, модифицирующие свой код в зараженных программах таким образом, что два
+          экземпляра одного и того же вируса могут не совпадать ни в одном бите. Такие вирусы не только шифруют свой
+          код, используя различные пути шифрования, но и содержат код генерации шифровщика и расшифровщика, что отличает
+          их от обычных шифровальных вирусов, которые также могут шифровать участки своего кода, но имеют при этом
+          постоянный код шифровальщика и расшифровщика.</p>
+        <p>Цель такого шифрования заключается в невозможности проанализировать его код с помощью обычного
+          дизассемблирования. Этот код зашифрован и представляет собой бессмысленный набор команд. Расшифровка
+          производится самим вирусом уже непосредственно во время выполнения. При этом возможны варианты: он может
+          расшифровать себя всего сразу, а может выполнить такую расшифровку «по ходу дела», может вновь шифровать уже
+          отработавшие участки. Все это делается ради затруднения анализа кода вируса.</p>
+        <p><i>Стелс-вирусы.</i> В ходе проверки компьютера антивирусные программы считывают данные — файлы и системные
+          области с жестких дисков и дискет, пользуясь средствами операционной системы и базовой системы ввода-вывода
+          BIOS. Ряд вирусов после запуска оставляют в оперативной памяти компьютера специальные модули, перехватывающие
+          обращение программ к файловой системе компьютера. Если такой модуль обнаруживает, что программа пытается
+          прочитать зараженный файл или системную область диска, он на ходу подменяет читаемые данные.</p>
+        <p>Стелс-вирусы обманывают антивирусные программы и в результате остаются незамеченными. Тем не менее существует
+          простой способ отключить механизм маскировки стелс-вирусов. Достаточно загрузить компьютер с незараженной
+          системной дискеты и сразу, не запуская других программ с диска компьютера (которые также могут оказаться
+          зараженными), проверить компьютер антивирусной программой.</p>
+        <p>При загрузке с системной дискеты вирус не может получить управление и установить в оперативной памяти
+          резидентный модуль, реализующий стелс-механизм. Антивирусная программа сможет прочитать информацию,
+          действительно записанную на диске, и легко обнаружит вирус.</p>
+        <p><i>Макровирусы.</i> В отличие от классических вирусов, эти паразитировали не на исполняемых файлах, а на
+          документах, подготовленных в популярных программах из комплекта Microsoft Office. В текстовый редактор
+          Microsoft Word и табличный редактор Microsoft Excel был встроен свой собственный язык программирования —
+          Visual Basic for Applications (VBA), предназначенный для созданий специальных дополнений к редакторам —
+          макросов. Эти макросы сохранялись в теле документов Microsoft Office и легко могли быть заменены вирусами.
+          После открытия зараженного файла вирус активировался и заражал все документы Microsoft Office на НЖМД.</p>
+        <p>Одна из самых мощных атак макровирусов была зарегистрирована в марте 1999 г., когда вирус Melissa, созданный
+          программистом Д. Смитом, за несколько часов распространился по всему миру. И хотя этот вирус был сравнительно
+          безопасным (Melissa ограничивалась тем, что заражала все существующие документы и рассылала свои копии людям,
+          внесенным в адресную книгу Microsoft Outlook), его появление заставило Microsoft срочно оснастить программы
+          Microsoft Office защитой от запуска макросов. При открытии любого документа, содержащего встроенные макросы,
+          Word и Excel запрашивают подтверждение пользователя.</p>
+        <p><i>Скрипт-вирусы.</i> Макровирусы являются одной из разновидностей большого семейства вредоносных программ —
+          скрипт-вирусов. Их выделение связано с тем фактором, что именно макровирусы положили начало всему этому
+          семейству, к тому же вирусы, ориентированные на программы Microsoft Office получили наибольшее
+          распространение. Следует отметить также, что скрипт-вирусы являются подгруппой файловых вирусов и написаны на
+          различных скрипт-языках (VBS, JS, ВАТ, РНР и т. д.).</p>
+        <p>Общая черта скрипт-вирусов — это привязка к одному из «встроенных» языков программирования. Каждый вирус
+          привязан к конкретным изъянам в защите одной из программ Windows и представляет собой не самостоятельную
+          программу, а набор инструкций, которые заставляют в общем-то безобидный «движок» программы совершать не
+          свойственные ему разрушительные действия.</p>
+        <p>Большая часть скрипт-вирусов распространяется через электронную почту (такие вирусы чаще называют
+          Internet-червями). Пожалуй, ярчайшими представителями этого семейства являются вирусы LoveLetter и
+          AnnaKournikova, атаки которых пришлись на сезон 2001—2002 г. Оба этих вируса использовали один и тот же прием,
+          основанный не столько на слабости защиты операционной системы, сколько на неопытности пользователей. Хитрость
+          создателей вируса проста — файл, который показался нам картинкой, имел двойное расширение, например
+          AnnaKournikova.jpg.vbs.</p>
+        <p>Второе расширение является истинным типом файла, в то время как первое является частью его имени, а поскольку
+          расширение vbs Windows хорошо «знакомо», ОС прячет его от глаз пользователей, оставляя на экране лишь имя
+          AnnaKournikova.jpg.</p>
+        <p>Следует отметить, что в качестве вложения в письмо относительно безопасны только файлы типов txt, jpg, gif,
+          tif, bmp, mp3, wma.</p>
+        <p>К безусловно опасных типам файлов относятся: asx, bas, bat, cmd, com, cpl, crt, exe, inf, ins, js, msc, msi,
+          pif, reg, vbs.</p>
+        <p>Кроме вирусов, к вредоносным программам принято относить также инструментальные средства, способствующие
+          созданию вирусов и укрытию их от средств антивирусной защиты.</p>
+        <p><i>PolyEngine</i> — полиморфные генераторы. Полиморфные генераторы не являются вирусами в прямом смысле этого
+          слова, поскольку в их алгоритм не закладываются функции размножения, т. е. открытия, закрытия и записи в
+          файлы, чтения и записи секторов и т. д. Главной функцией подобного рода программ является шифрование тела
+          вируса и генерация соответствующего расшифровщика.</p>
+        <p>Обычно полиморфные генераторы распространяются их авторами без ограничений в виде файла-архива. Основным
+          файлом в архиве любого генератора является объектный модуль, содержащий этот генератор. Во всех встречавшихся
+          генераторах этот модуль содержит внешнюю (external) функцию — вызов программы генератора.</p>
+        <p><i>Constructor — конструкторы вирусов и троянских программ или VirTools.</i> Конструкторы вирусов и троянских
+          программ — это утилиты, предназначенные для изготовления новых компьютерных вирусов и «троянцев» и/или их
+          изучения в хакерских целях. Известны конструкторы вирусов для DOS, Windows и макровирусов. Они позволяют
+          генерировать исходные тексты вирусов, объектные модули и/или непосредственно зараженные файлы.</p>
+        <p>Некоторые конструкторы снабжены стандартным оконным интерфейсом, где с помощью системы меню можно выбрать тип
+          вируса, поражаемые объекты, наличие или отсутствие самошиф- ровки, противодействие отладчику, внутренние
+          текстовые строки, выбрать эффекты, сопровождающие работу вируса и т. п. Прочие конструкторы не имеют
+          интерфейса и считывают информацию о типе вируса из конфигурационного файла.</p>
+        <p><i>FileCryptor, PolyCryptor —</i> скрытие от антивирусных программ. Это хакерские утилиты, использующиеся для
+          шифрования других вредоносных программ с целью скрытия их содержимого от антивирусной проверки</p>
+
+
+      </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <p class="footer__copy">© 2021 ГПОУ ТО "Донской колледж информационных технологий" Майорова&nbsp;Дарья
+        4&nbsp;&#8209;П&nbsp;&#8209;1</p>
+    </div>
+  </footer>
+  <script src="../../core.js"></script>
+</body>
+
+</html>
