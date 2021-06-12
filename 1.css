@@ -1,0 +1,33 @@
+.page__body {
+  grid-template-columns: 1fr;
+}
+
+.aside {
+  display: flex;
+  background-color: transparent;
+  overflow: visible;
+}
+
+.nav-aside {
+  padding: 3rem 1.5rem 4rem;
+}
+
+@media (min-width: 425px) {
+  .nav-aside {
+    padding: 3rem 2.5rem 4rem;
+  }
+}
+
+@media (min-width: 1050px) {
+  .nav-aside {
+    padding: 5rem 4rem 4rem;
+  }
+}
+
+.nav-aside__list {
+  color: #1b1b1b;
+}
+
+.nav-aside__item > .nav-aside__list {
+  display: block;
+}
